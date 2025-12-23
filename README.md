@@ -28,21 +28,21 @@ It operates on a dual-process cognitive architecture:
 ```mermaid
 graph TD
     subgraph Environment [外部环境]
-        User_Input([User Input / 用户输入]) --> Sensory[Sensory Cortex<br>Embedding + Poisson Encoding]
-        Web[Web & Tools / 网络工具] <--> ActInf
+        User_Input(["User Input / 用户输入"]) --> Sensory["Sensory Cortex<br>Embedding + Poisson Encoding"]
+        Web["Web & Tools / 网络工具"] <--> ActInf
     end
 
     subgraph "Nezha Core (The Brain / 大脑核心)"
-        Sensory --> GWT{Global Workspace<br>全局工作空间 (Consciousness)}
+        Sensory --> GWT{"Global Workspace<br>全局工作空间 (Consciousness)"}
         
         subgraph "Unconscious (Async Threads / 潜意识线程)"
-            Amygdala[Amygdala / 杏仁核<br>Fear & Threat Monitor] -.->|Interrupt!| GWT
-            Hippocampus[Hippocampus / 海马体<br>Graph Memory & RAG] <--> GWT
-            ACC[Anterior Cingulate / 前扣带皮层<br>Conflict & Surprise] --> GWT
+            Amygdala["Amygdala / 杏仁核<br>Fear & Threat Monitor"] -.->|Interrupt!| GWT
+            Hippocampus["Hippocampus / 海马体<br>Graph Memory & RAG"] <--> GWT
+            ACC["Anterior Cingulate / 前扣带皮层<br>Conflict & Surprise"] --> GWT
         end
         
-        GWT --> WorldModel[Neural World Model<br>神经世界模型]
-        WorldModel --> ActInf[Active Inference Engine<br>主动推理引擎]
+        GWT --> WorldModel["Neural World Model<br>神经世界模型"]
+        WorldModel --> ActInf["Active Inference Engine<br>主动推理引擎"]
         
         subgraph "Neuro-Endocrine System (神经内分泌)"
             Hormones[Dopamine / Cortisol / NE]
@@ -51,13 +51,13 @@ graph TD
         end
     end
 
-    ActInf --> Action[Execution & Learning / 执行与学习]
+    ActInf --> Action["Execution & Learning / 执行与学习"]
     Action --> User_Output([Response / 响应])
     
     subgraph "Night Phase (Sleep / 睡眠阶段)"
-        Dream[Dream Weaver<br>造梦师 (DPO & Replay)]
-        SHY[Synaptic Homeostasis<br>突触稳态]
-        Evo[Bayesian Evolution<br>贝叶斯进化]
+        Dream["Dream Weaver<br>造梦师 (DPO & Replay)"]
+        SHY["Synaptic Homeostasis<br>突触稳态"]
+        Evo["Bayesian Evolution<br>贝叶斯进化"]
     end
     
     Action -.->|Daily Buffer| Dream
@@ -151,5 +151,6 @@ If you use Nezha in your research, please cite it as follows:
 ## 📜 License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
 
 ```
