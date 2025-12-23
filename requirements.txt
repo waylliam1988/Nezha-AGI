@@ -1,0 +1,17 @@
+torch>=2.0.0
+transformers
+peft
+trl
+bitsandbytes
+accelerate
+numpy
+networkx
+bayesian-optimization
+pyyaml
+PyPDF2
+python-docx
+requests
+undetected-chromedriver
+selenium
+kuzu
+sentence-transformers
