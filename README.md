@@ -99,7 +99,7 @@ graph TD
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/waylliam/Nezha-AGI.git](https://github.com/waylliam/Nezha-AGI.git)
+git clone [https://github.com/waylliam1988/Nezha-AGI.git](https://github.com/waylliam1988/Nezha-AGI.git)
 cd Nezha-AGI
 
 # 2. Install dependencies
@@ -128,7 +128,7 @@ python Nezha.py
 For a deep dive into the mathematical and biological foundations (Free Energy Principle, STDP, Sortino Ratio), please refer to the **Technical Report**:
 欲深入了解数学与生物学基础（自由能原理、STDP、索提诺比率），请参阅 **技术报告**：
 
-👉 **[Read the Full Technical Report (PDF)](./docs/Nezha_Technical_Report_v11.0.pdf)**
+👉 **[Read the Full Technical Report (PDF)](./Nezha_Technical_Report_v11.0.pdf)**
 
 ## 🤝 Citation (引用)
 
@@ -143,7 +143,7 @@ If you use Nezha in your research, please cite it as follows:
   year = {2025},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.PLEASE_UPDATE_AFTER_RELEASE},
-  url = {[https://github.com/waylliam/Nezha-AGI](https://github.com/waylliam/Nezha-AGI)}
+  url = {[https://github.com/waylliam1988/Nezha-AGI](https://github.com/waylliam1988/Nezha-AGI)}
 }
 
 ```
@@ -151,6 +151,5 @@ If you use Nezha in your research, please cite it as follows:
 ## 📜 License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
 
 ```
