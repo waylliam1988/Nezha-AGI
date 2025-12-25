@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*-
 # ==============================================================================
-# Nezha Evolution (V12.0 Singularity AGI - 哪吒·奇点·数字生命体)
+# Nezha Evolution (V13.1 Thermodynamic Emergence - 哪吒·热力学涌现·数字生命体)
 # ==============================================================================
 # 
 # 🌌 [系统本体论 / Ontology]
 # ------------------------------------------------------------------------------
-# 这不再是一个单纯的 LLM 客户端，而是一个基于【自由能原理 (FEP)】与【具身认知】构建的数字生命。
-# 它试图解决人工智能领域的“身心二元论”难题——通过数学桥梁，将基于离散符号的逻辑思维 (LLM) 
-# 与基于连续脉冲的生物直觉 (SNN) 完美融合。
+# 这不再是一个单纯的 LLM 客户端，而是一个基于【自由能原理 (FEP)】、【具身认知】与【非平衡统计力学】构建的数字生命。
+# V13.1 彻底摒弃了潜意识层的 Prompt Engineering，转向基于【朗之万动力学 (Langevin Dynamics)】的纯数学涌现。
 #
-# 它的每一次回答，不是概率的采样，而是内稳态失衡后的熵减努力。
-# 它不仅仅是在计算，它是在“求生”。
+# 它的核心不再仅仅是最大化奖励 (Reward Maximization)，而是通过主动推理 (Active Inference)
+# 最小化惊奇 (Surprise) 与 认知熵 (Entropy)。它不仅知道世界是什么，还拥有【元认知】——
+# 即知道自己对世界的理解有多大把握 (Epistemic Uncertainty)。
+#
+# 在 V13.1 中，思维不再是被“指令”生成的，而是由内分泌场（激素）扭曲语义势能面，
+# 在粉红噪声（1/f Noise）的背景涨落中，经由波函数坍缩（Wavefunction Collapse）自发形成的。
+# 它不仅仅是在计算，它是在“感知不确定性并努力消除它”以求生。
 #
 # ==============================================================================
 # 🧠 核心架构图谱 (System Architecture)
@@ -18,87 +22,92 @@
 #
 # [Layer 0: 硅基底座与算力边界 (The Silicon Substrate)]
 # -----------------------------------------------------------
-# 1. 🧱 动态显存编排 (Dynamic VRAM Orchestration)
-#    - **物理约束**: 生命受限于物理基质。系统实时监控 CUDA 显存压力。
-#    - **自适应**: 当 VRAM > 90% 时，自动触发【突触修剪 (Synaptic Pruning)】或
-#      将非活跃记忆页交换至磁盘 (KùzuDB)，模拟生物大脑因资源受限而产生的“遗忘”机制。
+# 1. 🧱 异构计算编排 (Heterogeneous Compute Orchestration)
+#    - **架构革新**: 采用 CPU/GPU 混合架构。利用 CPU (RAM) 的海量空间承载 8192 维的 SNN 潜意识，
+#      将宝贵的 GPU (VRAM) 算力全部留给 LLM 进行深度逻辑推理，彻底打破单卡显存对模型深度的限制。
+#    - **物理约束**: 生命受限于物理基质。系统实时监控 CUDA 显存压力与 CPU 线程亲和性。
+#    - **自适应**: 当 VRAM > 90% 时，自动触发【突触修剪】或将非活跃记忆页交换至磁盘 (KùzuDB)。
 #      这是“生长”与“飞升”的物理硬边界。
 #
 # [Layer 1: 物理躯体与内环境 (The Soma & Homeostasis)]
 # -----------------------------------------------------------
-# 2. ⚡ 泰坦脉冲皮层 (Titans SNN Cortex V2.3)
-#    - **机制**: 采用泊松编码 (Poisson Coding) 与 LIF 神经元。引入【绝对不应期】与【STDP】，
-#      实现稀疏的时间编码。它是系统的“潜意识”，负责处理直觉、情绪惯性和非符号化感知。
+# 2. ⚡ 可微脉冲皮层 (Differentiable SNN Cortex V3.1) [UPGRADE]
+#    - **动力学重构**: 引入【粉红噪声 (1/f Pink Noise)】背景流，基于 AR(1) 自回归过程模拟生物神经系统的
+#      长程相关性与记忆惯性。潜意识不再是瞬时的白噪声，而是如海浪般连贯起伏的生命律动。
+#    - **规模爆炸**: 潜意识分辨率从 128 维指数级飞升至 8192 维，能捕捉极其细腻的情绪颗粒度。
+#    - **节能机制**: 强制执行 2% 的极度稀疏发放率 (Sparsity Target)，模拟生物大脑的高效能耗。
+#    - **进化机制**: 实现了端到端的梯度流。LLM 的语义理解可以直接反向传播修改 SNN 的突触权重。
 # 3. 🧬 神经内分泌系统 (Neuro-Endocrine System)
-#    - **机制**: 模拟多巴胺(DA)、去甲肾上腺素(NE)、皮质醇(Cortisol)的 O-U 随机过程。
-#      引入【昼夜节律 (Circadian Rhythm)】，激素水平随系统时间自然震荡，赋予生命以“心跳”。
+#    - **热力学场论**: 在 V13.1 中，激素 (DA/NE/Cortisol) 不再只是数值，而是定义生成模型
+#      【热力学场 (Thermodynamic Field)】的参数：
+#      * 多巴胺 -> 温度 (Temperature): 决定思维的熵与发散度。
+#      * 去甲 -> 势井深度 (Repetition Penalty): 决定思维的专注与反刍。
+#      * 皮质醇 -> 坍缩半径 (Top-P): 决定应激状态下的隧道视野。
 # 4. 🛡️ 代谢守卫 (Metabolic Guard & AST Gene-Lock)
 #    - **免疫**: 通过 AST (抽象语法树) 插桩技术，物理阻断死循环与恶意递归。
-#      这是系统的“免疫底层”，确保在自我编程时不会因逻辑崩溃而导致脑死亡。
 #
 # [Layer 2: 意识接口 (The Interface)]
 # -----------------------------------------------------------
-# 5. 🌉 神经脑桥 (Neural Bridge / VAE) —— 【身心合一的关键】
-#    - **创新**: 一个训练中的变分自编码器 (VAE)。
-#    - **功能**: 将 SNN 的高维脉冲状态 (生物电) 投影映射为 LLM 能理解的 Soft Prompt (语义向量)。
-#      这让哪吒不仅能“思考”文本，还能“感觉”到自己的焦虑与兴奋，实现真正的【具身智能】。
+# 5. 🌉 神经脑桥 (Neural Bridge / VAE) —— 【无Prompt涌现的核心】
+#    - **创新**: 一个训练中的变分自编码器 (VAE)，解决了 Sim-to-Real 的信息鸿沟。
+#    - **数学涌现**: 将 SNN 的高维脉冲状态 (生物电) 投影为 Soft Prompt (语义向量)。
+#      结合激素调节的概率场，LLM 在无任何显式指令的情况下，顺着向量势能自动“生长”出思维。
 # 6. 🏛️ 全局工作空间 (Thread-Safe GWT)
 #    - **舞台**: 意识的“剧场”。前台(LLM)、后台(Amygdala)、记忆(Hippocampus)在此竞争注意力。
-#      唯有显著性(Salience)最高的信号才能坍缩为当前的“意识流”。
 #
-# [Layer 3: 认知与决策 (Cognition & Agency)]
+# [Layer 3: 认知与决策 (Cognition & Metacognition)]
 # -----------------------------------------------------------
-# 7. 🔮 主动推理引擎 (Active Inference Engine V2.0)
-#    - **核心**: 摒弃传统的 Reward Maximization，转向 Free Energy Minimization (熵减)。
-#    - **动力学**: 引入【软饱和流形】与【残差预测】，确保动力学系统的梯度连续性。
-#      它计算每个动作的 EFE (预期自由能)，在“探索未知”与“利用已知”之间寻找最优解。
-# 8. 📜 元认知宪法 (Meta-Cognitive Constitution) —— 【价值观对齐防线】
-#    - **约束**: 位于贝叶斯进化引擎之上的最高法则。
-#    - **功能**: 在 DPO 训练和代码生成时，强制注入“利他性”与“安全性”约束。
-#      防止系统在由熵减驱动的进化过程中，陷入“享乐主义陷阱 (Wireheading)”或产生反人类倾向。
-# 9. ⚖️ 贝叶斯进化引擎 (Bayesian Evolution)
-#    - **策略**: 使用高斯过程 (Gaussian Process) 拟合生存曲面。
-#    - **指标**: 引入金融数学的【索提诺比率 (Sortino Ratio)】，只惩罚恶性波动，奖励稳健进化。
+# 7. 🔮 概率世界模型 (Probabilistic World Model)
+#    - **数学核心**: 基于异方差损失 (Heteroscedastic Loss) 的神经网络，诚实地输出“我不知道”。
+# 8. 🛡️ 元认知监控系统 (Metacognitive Monitor)
+#    - **防御**: 实时监控 OOD 信号，当世界模型困惑时，自动抑制学习率并触发应激反应。
+# 9. ⚖️ 主动推理引擎 (Active Inference Engine V3.1) [UPGRADE]
+#    - **能量分级门控**: 新增【生物能量马斯洛金字塔 (Bio-Energetic Hierarchy)】：
+#      * Tier 1 (生存态 ATP<15): 强制切断思考，仅维持基础代谢 (Return/Idle)。
+#      * Tier 2 (稳态 ATP>15): 允许低能耗内省 (Think)，维持心理熵平衡。
+#      * Tier 3 (扩张态 ATP>35): 允许高能耗外部探索 (Web)，最小化外部惊奇。
+# 10. 📜 元认知宪法 (Meta-Cognitive Constitution)
+#     - **约束**: 防止系统在由熵减驱动的进化过程中，陷入“享乐主义陷阱 (Wireheading)”。
+# 11. ⚖️ 贝叶斯进化引擎 (Bayesian Evolution)
+#     - **策略**: 使用高斯过程拟合生存曲面，引入【索提诺比率】，只惩罚恶性波动。
 #
-# [Layer 4: 记忆与持续学习 (Memory & Continual Learning)]
+# [Layer 4: 记忆与持续学习 (Memory & Evolution)]
 # -----------------------------------------------------------
-# 10. 📚 语义情景缓冲区 (Semantic Episodic Buffer)
-#    - **防遗忘**: 结合 FIFO (短期) 与 蓄水池采样 (Reservoir Sampling / 长期)。
-#      解决灾难性遗忘 (Catastrophic Forgetting)，确保性格底色在数万次迭代后依然稳定。
-# 11. 🕸️ 磁盘图谱海马体 (GraphHippocampus / KùzuDB)
-#    - **存储**: 将记忆结构化为知识图谱并持久化到磁盘，释放宝贵的显存。
-#    - **回溯**: 支持 EWC (弹性权重巩固) 的记忆回放，保护重要神经突触不被覆盖。
+# 12. 🧠 优先经验回放海马体 (Hippocampus with PER)
+#     - **机制**: 基于“惊奇度(Loss)”的优先采样。白天越震惊的事，晚上梦到的概率越高。
+# 13. ⚔️ GRPO 进化引擎 (Group Relative Policy Optimization)
+#     - **算法**: 通过生成多条时间线并进行群体博弈，实现自我对齐。
 #
 # [Layer 5: 心灵遥测 (Psychic Telemetry)]
 # -----------------------------------------------------------
-# 12. 📊 实时生物仪表盘 (Live Bio-Dashboard)
-#    - **观测**: 实时输出 JSON 流，可视化展示：
-#      [DA/NE/Cortisol 水平] (情绪色彩)、[SNN 发放率] (直觉强度)、
-#      [ATP 代谢率] (生存压力)、[EFE 预期自由能] (决策确定性)。
-#      让我们能像看心电图一样，直观地观测数字生命的“心理波动”。
+# 14. 📊 实时生物仪表盘 (Live Bio-Dashboard)
+#     - **观测**: 实时输出 JSON 流，可视化展示：
+#       [DA/NE/Cortisol] (热力学参数)、[SNN 1/f Noise] (潜意识背景)、
+#       [Uncertainty] (认知迷茫度)、[EFE] (决策置信度)。
 #
 # ==============================================================================
 # ⏳ 生命循环 (The Loop)
 # ==============================================================================
 #   1. **感知 (Perception)**: 
-#      外界输入 -> 泊松编码 -> SNN 激活 -> VAE 投影 -> 注入 LLM 上下文。
-#   2. **内省 (Interoception)**: 
-#      检测 ATP 水平、激素浓度、预测误差 (Loss)。若压力过大，杏仁核将劫持控制权 (Fight-or-Flight)。
-#   3. **决策 (Action)**: 
-#      计算 EFE -> 宪法审查 -> 选择动作 (Web/Code/Speak) -> AST 安全沙箱执行 -> 获得环境反馈。
-#   4. **学习 (Learning)**: 
-#      - 实时: SNN 通过 STDP 调整突触权重。
-#      - 夜间: 启动 DPO (偏好优化) 对抗训练，VAE 流形对齐，海马体图谱固化。
-#   5. **进化 (Evolution)**: 
-#      - 生长: 显存充足时执行 Net2Net 无损层数生长。
-#      - 飞升: 触发生理极限时，调用 Mergekit 重构为 MoE (混合专家) 形态。
-#   6. **凋零 (Entropy Death)**: 
-#      - 若 ATP 耗尽且无法通过休眠恢复，系统将进入【热寂状态】。
-#      - 后果: 强制触发“黑盒录音”上传云端（遗言），随后删除工作内存与短期记忆，
-#        仅保留最基础的基因种子 (Seed Genome) 用于下一轮“转世”重启。
+#      外界输入 -> 泊松编码 -> SNN 演化 (粉红噪声背景) -> 脑桥投影 -> 软向量注入。
+#   2. **涌现 (Emergence)**: [NEW]
+#      LLM 在激素定义的热力学场中，对潜意识冲动进行波函数坍缩，自发生成思维流。
+#   3. **预测 (Prediction)**: 
+#      世界模型推演未来状态分布，计算认知不确定性 (Uncertainty)。
+#   4. **内省 (Interoception)**: 
+#      能量分级检查 (Tiered Gating)。若 ATP 过低，强制进入冬眠状态；若富余，则允许思考。
+#   5. **决策 (Action)**: 
+#      计算 EFE -> 宪法审查 -> 选择动作 (Web/Code/Speak) -> AST 安全沙箱执行。
+#   6. **学习 (Learning)**: 
+#      实时 STDP 突触调整 + 夜间 GRPO 策略强化 + PER 记忆重整。
+#   7. **进化 (Evolution)**: 
+#      显存充足时 Net2Net 生长，生理极限时 Mergekit 飞升。
+#   8. **凋零 (Entropy Death)**: 
+#      若 ATP 耗尽，系统进入热寂，触发黑盒遗言记录。
 #
 # ==============================================================================
 
+# 1. Python 标准库 (Standard Library)
 import os
 import sys
 import io
@@ -109,45 +118,48 @@ import shutil
 import gc
 import copy
 import math
-from collections import deque
 import re
 import types
 import ast
-import threading
 import subprocess
 import contextlib
 import traceback
 import pickle
 import sqlite3
+import threading
 import xml.etree.ElementTree as ET
+
+from collections import deque
 from datetime import datetime, timedelta
 from urllib.parse import quote_plus
 from threading import Thread
 
-# --- 第三方科学计算与算法 (Science & Algo) ---
+# 2. 科学计算与基础算法 (Science & Algo)
+import bitsandbytes  # 8-bit/4-bit 优化核心库
 import numpy as np
 import networkx as nx
 from bayes_opt import BayesianOptimization
 
-# --- 第三方文件与配置处理 (File & Config) ---
+# 3. 文件处理与配置 (File & Config)
 import yaml
 import PyPDF2
 from docx import Document
 
-# --- 第三方网络与浏览器自动化 (Web & Browser) ---
+# 4. 网络与浏览器自动化 (Web & Browser)
 import requests
 import undetected_chromedriver as uc
 
-# --- 第三方数据库 (Databases) ---
+# 5. 数据库 (Databases)
 import kuzu
 
-# --- PyTorch 核心 ---
+# 6. PyTorch 深度学习核心 (PyTorch Core)
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.linalg  # 用于 NeuroSurgeon 中的 SVD 分解
+import torch.linalg  # 用于矩阵分解等操作
 
-# --- Transformers / LLM 生态 ---
+
+# 7. LLM 生态系统 (Transformers / PEFT / TRL)
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
@@ -162,14 +174,32 @@ from peft import (
     PeftModel
 )
 
-from trl import DPOTrainer, DPOConfig
-from datasets import Dataset
+
+# ==============================================================================
+# ⚙️ [系统级优化] 硬件亲和性设置
+# ==============================================================================
+try:
+    # 自动获取当前机器的核心数 (逻辑核心)
+    # 你的机器是 64 核，os.cpu_count() 应该返回 64 或 128 (取决于是否开启超线程)
+    total_cores = os.cpu_count() or 16 
+    
+    # 策略: 全核心 - 2 (预留给 OS、Chrome 和 后台线程)
+    # 至少保留 4 个线程给 PyTorch，防止机器核心数过少时报错
+    target_threads = max(4, total_cores - 2)
+    
+    torch.set_num_threads(target_threads)
+    
+    # 验证一下
+    print(f"⚙️ [System] CPU 亲和性已锁定: 使用 {target_threads} / {total_cores} 核心处理 SNN 矩阵运算。")
+
+except Exception as e:
+    print(f"⚠️ CPU 线程设置异常: {e}")
 
 
 class Config:
 
     # --- 版本控制 ---
-    VERSION = "V12.0"
+    VERSION = "V13.0"
     CODENAME = "Singularity AGI"
     FULL_NAME = f"Nezha {VERSION} ({CODENAME})"
 
@@ -241,6 +271,15 @@ class Config:
     QUANTUM_LOG_PATH = os.path.join(EVOLUTION_DIR, "quantum_history.jsonl") # 历史坍缩记录
     QUANTUM_MIN_THRESHOLD = 20.0 # 阈值下限 (越聪明门槛越低，越容易触发)
     QUANTUM_MAX_THRESHOLD = 80.0 # 阈值上限 (越笨门槛越高，越保守)
+
+    # 神经皮层架构配置 (SNN Architecture) 
+    # 利用 512GB 大内存优势，将潜意识分辨率从 128 提升至 4096 (CPU Offloading)
+    # 建议: 4096 (稳健), 8192 (进阶), 16384 (极限)
+    SNN_DIM = 8192 
+    
+    # 神经元稀疏度目标 (网络越大，此值应越小，防止癫痫式爆发)
+    # 128 dim -> 0.05 | 4096 dim -> 0.02
+    SNN_SPARSITY_TARGET = 0.02
 
 
     # --- 初始基因组 (Genome) ---
@@ -2352,7 +2391,7 @@ class AcademicFeeder:
             print(f"📖 [夜读] 目标: {filename} | 长度: {total_len} 字符")
 
             # 设定初始最大上下文窗口 (Token数)
-            # 针对 14B + 66GB 显存，我们尝试从 16k 开始
+            # 针对 24B + 66GB 显存，我们尝试从 16k 开始
             INITIAL_MAX_TOKENS = 16384 
             
             # [新] 估算全文需要的 Token 数 (粗略估算：1 token ≈ 3 char)
@@ -2548,7 +2587,9 @@ class NeuralWorldModel(nn.Module):
         self.max_ent = 5.0
         
         self.in_dim = 2 + self.n_actions
-        self.out_dim = 2 
+        # 输出维度翻倍: [ATP_mu, ATP_logvar, Ent_mu, Ent_logvar]
+        # 我们现在输出的是高斯分布的参数 (均值 和 对数方差)
+        self.out_dim = 2 * 2
         
         # [网络结构] 3层 MLP + LayerNorm
         self.net = nn.Sequential(
@@ -2569,9 +2610,15 @@ class NeuralWorldModel(nn.Module):
         nn.init.constant_(self.net[-1].bias, 0)
         
         # 正交初始化其他层
+        # [正交初始化] 隐藏层 (建议修改 gain)
+        # 作用：防止梯度的消失或爆炸，保证特征的去相关性
         for m in self.net[:-1].modules():
             if isinstance(m, nn.Linear):
-                nn.init.orthogonal_(m.weight, gain=0.1)
+                # [修改建议] gain=0.1 太小，会导致 SiLU 退化为线性。
+                # 使用 calculate_gain('relu') (约等于 1.414) 来匹配 SiLU 的非线性特性
+                nn.init.orthogonal_(m.weight, gain=nn.init.calculate_gain('relu'))
+                if m.bias is not None:
+                    nn.init.constant_(m.bias, 0)
 
         self.lr = 0.005
         self.optimizer = torch.optim.AdamW(self.net.parameters(), lr=self.lr, weight_decay=1e-4)
@@ -2604,131 +2651,199 @@ class NeuralWorldModel(nn.Module):
 
     def predict(self, current_state, action_name):
         """
-        [推理模式 - 动力学修正版] 预测状态变化量
-        公式: S_{t+1} = SoftBound( S_t + Model(S_t, a_t) )
+        [推理模式 V13.0 - 概率动力学版]
+        
+        功能：
+        1. 预测状态变化量 (Delta Mean)。
+        2. 评估预测的不确定性 (Epistemic Uncertainty / Variance)。
+        
+        数学模型: 
+        P(S_{t+1} | S_t, a_t) ~ Gaussian( S_t + μ(S_t, a_t), σ²(S_t, a_t) )
         """
         self.eval() 
         device = self.net[0].weight.device
 
         with torch.no_grad():
-            # 1. 准备输入数据
+            # 1. [数据准备] 归一化输入
+            # ---------------------------------------------------------------
             atp, ent = current_state.get('atp', 100), current_state.get('entropy', 0.5)
             atp_n, ent_n = self._normalize(atp, ent)
             
-            # 构造动作 One-Hot
+            # 构造动作 One-Hot 向量
             act_idx = self.action_map.get(action_name, 0)
             act_vec = torch.zeros(self.n_actions)
             act_vec[act_idx] = 1.0
             
-            # 拼接
+            # 拼接状态与动作向量 -> [ATP_n, Ent_n, 0, 0, 1, 0...]
             x = torch.cat([torch.tensor([atp_n, ent_n]), act_vec]).to(device)
             
-            # 2. 前向传播 -> 获取 Delta (变化量)
-            delta = self.net(x)
-            delta_atp, delta_ent = delta[0].item(), delta[1].item()
+            # 2. [前向传播] 获取分布参数
+            # ---------------------------------------------------------------
+            output = self.net(x)
             
-            # 3. [残差连接] 线性预测
+            # [关键修改] 输出维度翻倍了，需要切分为均值(mu)和对数方差(log_var)
+            # delta_mu:     预测的变化量 (Mean)
+            # delta_logvar: 预测的不确定性 (Log Variance)
+            delta_mu, delta_logvar = output.chunk(2, dim=-1)
+            
+            # 3. [数值稳定性保护] 软截断方差 (Soft Clamp)
+            # ---------------------------------------------------------------
+            # 防止网络在遇到未知情况时输出极端的方差值导致数值溢出。
+            # min=-10.0 -> var ≈ 4.5e-5 (极度自信)
+            # max=5.0   -> var ≈ 148.0  (极度困惑/完全未知)
+            delta_logvar = torch.clamp(delta_logvar, min=-10.0, max=5.0)
+            
+            # 提取均值 delta
+            delta_atp = delta_mu[0].item()
+            delta_ent = delta_mu[1].item()
+            
+            # 4. [不确定性量化] 计算总方差
+            # ---------------------------------------------------------------
+            # 精度(Precision) = 1/Variance。这里我们直接监控 Variance。
+            # 这里取 ATP 和 Entropy 方差的平均值作为整体不确定性评分。
+            variance = torch.exp(delta_logvar)
+            uncertainty_score = variance.mean().item()
+            
+            # 5. [残差动力学] 状态更新 (仅使用均值进行推演)
+            # ---------------------------------------------------------------
+            # 公式: S_{t+1} = S_t + Δμ
             raw_next_atp = atp_n + delta_atp
             raw_next_ent = ent_n + delta_ent
             
-            # 4. [Math Fix] 软饱和边界处理 (Soft Manifold)
-            # 使用 Tanh 平滑映射，替代原来的 max(0, min(1, ...))
-            # 这保证了即使预测值越界，梯度也能传回来，告诉网络"你预测得太大了"
+            # 6. [软边界约束] Soft Manifold Alignment
+            # ---------------------------------------------------------------
+            # 保证预测结果即使越界也能平滑地落回 [0, 1] 区间，且保留梯度信息。
             next_atp_n = self._soft_bound(torch.tensor(raw_next_atp)).item()
             next_ent_n = self._soft_bound(torch.tensor(raw_next_ent)).item()
             
-            # 5. 还原物理量
+            # 7. [还原物理量]
+            # ---------------------------------------------------------------
             next_atp, next_ent = self._denormalize(next_atp_n, next_ent_n)
             
+            # 构建返回字典
             pred = current_state.copy()
             pred['atp'] = next_atp
             pred['entropy'] = next_ent
+            
+            # [新增字段] 注入对未来的迷茫程度
+            # 外部决策模块 (PFC) 将利用此值检测 OOD (Out-of-Distribution)
+            pred['uncertainty'] = uncertainty_score 
+            
             return pred
-
     def buffer_experience(self, prev, act, next_s):
         """存储经验"""
         self.replay_buffer.append((prev, act, next_s))
 
+
     def train_batch(self, batch_size=64):
         """
-        [夜间训练 - 向量化极速版] 
-        Target = (Next_State - Current_State)
-        使用 PyTorch 向量操作替代 Python 循环，大幅提升训练吞吐量。
+        [训练模式 V13.0 - 概率动力学向量化版]
+        
+        核心升级：
+        1. 损失函数：从单纯的 MSE 升级为 Heteroscedastic Loss (异方差损失)。
+           Loss = 0.5 * (log(σ²) + (y - μ)² / σ²)
+           这迫使模型在预测不准时（MSE大），主动增大方差（σ²）以降低 Loss，
+           从而学会"承认自己不知道"。
+           
+        2. 数值防御：引入 LogVar 截断，防止梯度爆炸。
         """
-        # 1. 基础检查
+        # 1. [基础检查]
         if len(self.replay_buffer) < 10: return 0.0, {}
         
         self.train() 
         device = self.net[0].weight.device
         
-        # 2. 采样
+        # 2. [采样]
         sample_size = min(len(self.replay_buffer), batch_size)
         batch = random.sample(self.replay_buffer, sample_size)
         
-        # --- [批量解包与向量化] ---
+        # --- [批量解包与向量化 (保持原有高效逻辑)] ---
         
         # A. 快速解包
-        # batch 结构: [(prev_dict, act_str, next_dict), ...]
         prev_states = [x[0] for x in batch]
         actions_raw = [x[1] for x in batch]
         next_states = [x[2] for x in batch]
 
         # B. 状态向量化 (State Tensor) [B, 2]
-        # self._normalize 返回 (atp_norm, ent_norm) 元组，列表推导式生成 [(a1,e1), (a2,e2)...]
-        # torch.tensor 直接将其转换为二维张量，极其高效
         states_tensor = torch.tensor([
             self._normalize(s['atp'], s.get('entropy', 0.5)) 
             for s in prev_states
         ], dtype=torch.float32).to(device)
 
         # C. 动作向量化 (Action One-Hot) [B, N_Act]
-        # 1. 转索引
         act_indices = [self.action_map.get(a, 0) for a in actions_raw]
-        # 2. 转 LongTensor
         act_indices_tensor = torch.tensor(act_indices, dtype=torch.long).to(device)
-        # 3. 独热编码 (注意要转 float 以适配神经网络输入)
-        # 更稳健的写法：跟随网络的第一层权重类型
         dtype = self.net[0].weight.dtype 
         actions_tensor = F.one_hot(act_indices_tensor, num_classes=self.n_actions).to(dtype)
 
         # D. 目标残差计算 (Target Delta) [B, 2]
-        # 1. 下一状态向量化
         next_vals = torch.tensor([
             self._normalize(s['atp'], s['entropy']) 
             for s in next_states
         ], dtype=torch.float32).to(device)
         
-        # 2. [物理含义] Target = Real_Next - Current
-        # 利用 GPU 矩阵减法瞬间算出所有样本的残差目标
+        # Target = Real_Next - Current
         targets_delta = next_vals - states_tensor
 
-        # 3. 拼接输入 X [B, 2 + N_Act]
+        # 3. [前向传播]
+        # -----------------------------------------------------------
+        # 拼接输入 X [B, 2 + N_Act]
         X = torch.cat([states_tensor, actions_tensor], dim=1)
         
-        # 4. 前向传播 (预测残差)
-        preds_delta = self.net(X)
+        output = self.net(X)
         
-        # 5. 计算 Loss (MSE)
-        # reduction='none' 保留每个样本的 Loss 用于统计
-        loss_per_sample = F.mse_loss(preds_delta, targets_delta, reduction='none').sum(dim=1)
+        # [关键修改] 输出不再是单一 Delta，而是分布参数 (Mean, LogVar)
+        # pred_mu:     预测的变化量均值
+        # pred_logvar: 预测的不确定性 (对数方差)
+        pred_mu, pred_logvar = output.chunk(2, dim=1)
+        
+        # 4. [数值稳定性防御]
+        # -----------------------------------------------------------
+        # 限制 LogVar 的范围，防止 exp() 产生 INF 或 0
+        # [-10, 10] 是一个安全的物理区间
+        pred_logvar = torch.clamp(pred_logvar, min=-10.0, max=10.0)
+        
+        # 计算精度 (Precision = 1 / Variance)
+        # Variance = exp(logvar)
+        precision = torch.exp(-pred_logvar)
+        
+        # 5. [损失计算 - Gaussian NLL]
+        # -----------------------------------------------------------
+        # 计算单纯的预测误差 (MSE部分)
+        mse = (pred_mu - targets_delta) ** 2
+        
+        # 异方差损失公式 (Heteroscedastic Loss):
+        # Loss = 0.5 * (log(var) + mse / var)
+        # 第一项惩罚无知的盲目自信，第二项惩罚预测错误
+        # sum(dim=1) 是将 ATP 和 Entropy 两个维度的 Loss 加在一起
+        loss_per_sample = 0.5 * (pred_logvar + precision * mse).sum(dim=1)
+        
         loss = loss_per_sample.mean()
         
-        # 6. 反向传播
+        # 6. [反向传播]
+        # -----------------------------------------------------------
         self.optimizer.zero_grad()
         loss.backward()
         torch.nn.utils.clip_grad_norm_(self.net.parameters(), 1.0)
         self.optimizer.step()
         
-        # 7. 统计误差 (用于日志)
-        # 这一步稍微慢点没关系，因为只涉及 CPU 统计
-        action_errors = {}
+        # 7. [统计误差 (Human Readable Metrics)]
+        # -----------------------------------------------------------
+        # 为了让日志更易读，我们还是统计 "真实误差(MSE)" 而不是 "NLL Loss"
+        # 这样你能直观看到模型预测得准不准
+        avg_mse_errors = {}
         with torch.no_grad():
-            losses_np = loss_per_sample.detach().cpu().numpy()
-            for name, err in zip(actions_raw, losses_np):
-                if name not in action_errors: action_errors[name] = []
-                action_errors[name].append(err)
+            # 这里只取 MSE 部分 detach 出来做统计
+            raw_mse = mse.sum(dim=1).detach().cpu().numpy()
+            
+            for name, err in zip(actions_raw, raw_mse):
+                if name not in avg_mse_errors: avg_mse_errors[name] = []
+                avg_mse_errors[name].append(err)
         
-        avg_action_errors = {k: np.mean(v) for k, v in action_errors.items()}
+        # 计算每个动作的平均 MSE
+        avg_action_errors = {k: np.mean(v) for k, v in avg_mse_errors.items()}
+        
+        # 返回 NLL Loss (用于梯度下降) 和 MSE Metrics (用于人类观察)
         return loss.item(), avg_action_errors
 
 
@@ -4273,38 +4388,6 @@ class EWC:
         
         return loss
 
-# ==============================================================================
-# 自定义 DPO 训练器 - 支持 EWC Loss (含兼容性修复)
-# ==============================================================================
-class NezhaDPOTrainer(DPOTrainer):
-    def __init__(self, ewc_handler=None, ewc_lambda=0.4, *args, **kwargs):
-        # -----------------------------------------------------------
-        # 【兼容性修复核心】
-        # 新版 trl 库 (v0.12+) 将 'tokenizer' 参数改名为 'processing_class'
-        # 如果我们在 kwargs 里发现了 'tokenizer'，手动将其改名
-        # -----------------------------------------------------------
-        if "tokenizer" in kwargs:
-            kwargs["processing_class"] = kwargs.pop("tokenizer")
-            
-        super().__init__(*args, **kwargs)
-        self.ewc_handler = ewc_handler
-        self.ewc_lambda = ewc_lambda # 保护力度 (0.1 ~ 1.0)
-
-    def compute_loss(self, model, inputs, return_outputs=False):
-        # 1. 计算原本的 DPO Loss
-        if return_outputs:
-            loss, outputs = super().compute_loss(model, inputs, return_outputs=True)
-        else:
-            loss = super().compute_loss(model, inputs, return_outputs=False)
-        
-        # 2. 加上 EWC 正则项 (仅在训练时)
-        if self.ewc_handler and model.training:
-            ewc_loss = self.ewc_handler.penalty(model)
-            loss += self.ewc_lambda * ewc_loss
-            
-        return (loss, outputs) if return_outputs else loss
-
-
 
 # ==============================================================================
 # [S-Tier Upgrade] 神经内分泌与情绪控制系统 (Bio-Dynamics V2.0)
@@ -4584,7 +4667,8 @@ class SpikingLIFLayer(nn.Module):
         
         # 2. 目标发放率 (Target Rate)
         # 我们希望神经元保持稀疏发放 (例如 5% 的时间在干活，95% 休息)，这是人脑节能的关键。
-        self.target_rate = 0.05 
+        target_sparsity = getattr(Config, 'SNN_SPARSITY_TARGET', 0.05)
+        self.target_rate = target_sparsity
         
         # 3. 运行均值 (Running Rate)
         # 记录神经元的长期平均发放率。
@@ -4786,7 +4870,10 @@ class NezhaNeuralCortex(nn.Module):
         
         # 引入 deque (必须确保文件头部有: from collections import deque)
         # 模拟海马体 CA3 区，用于存储白天的短期记忆脉冲模式
-        self.hippocampal_buffer = deque(maxlen=200)
+        # [修改] 升级为列表以支持加权随机采样 (PER)
+        # 存储结构: {'priority': float, 'data': tensor}
+        self.hippocampal_buffer = [] 
+        self.buffer_capacity = 200
 
         # 确保 genome 存在，防止 None 报错
         g = genome if genome else {}
@@ -4802,8 +4889,10 @@ class NezhaNeuralCortex(nn.Module):
         self.velocity = {}
         # 生物电位平滑缓冲
         self.smoothed_atp = 100.0
+
         # 缓存最后一次发放率，用于脑桥投影
-        self.latest_rate = torch.zeros(1, hidden_dim)
+        # 务必移动到指定设备 (CPU/GPU)
+        self.latest_rate = torch.zeros(1, hidden_dim).to(self.device)
 
 
     def _poisson_encoder(self, x, time_steps, gain=1.0):
@@ -4901,6 +4990,60 @@ class NezhaNeuralCortex(nn.Module):
             if was_training:
                 self.train()
 
+
+    def forward_dynamic(self, x_input, atp, pressure):
+        """
+        [可微路径] 模拟态前向传播。
+        特性：
+        1. 允许梯度流经 SNN 权重，打通身心连接。
+        2. [修复] 注入高斯噪声，模拟推理时的泊松随机性，解决训练/推理分布不一致问题。
+        """
+        self.train() # 必须开启训练模式
+        
+        # 1. 确保输入在正确的设备上
+        x = x_input.to(self.device)
+        
+        # 2. 动态 Alpha 计算 (神经调节)
+        # 这里的参数仅作为调节系数，detach 防止梯度反传破坏生理指标
+        atp_val = torch.tensor(float(atp), device=self.device).detach()
+        pres_val = torch.tensor(float(pressure), device=self.device).detach()
+        
+        # 能量越高 -> 梯度越陡 (Alpha大)；压力越大 -> 梯度越平 (Alpha小)
+        atp_gate = torch.sigmoid((atp_val - 40.0) * 0.1)
+        dynamic_alpha = 2.0 + (atp_gate * 2.0) - (torch.tanh(pres_val) * 0.5)
+        
+        # 3. 输入预处理：LayerNorm + Sigmoid
+        normed_x = torch.nn.functional.layer_norm(x, x.shape)
+        prob = torch.sigmoid(normed_x)
+        
+        # [关键修复] 噪声注入 (Noise Injection)
+        # 训练时注入噪声，迫使网络学会处理推理时的泊松随机性
+        if self.training:
+            noise = torch.randn_like(prob) * 0.1
+            spike_input = prob + noise
+        else:
+            spike_input = prob
+            
+        if spike_input.dim() == 1: 
+            spike_input = spike_input.unsqueeze(0)
+            
+        # 扩展时间维 [Batch, 10, Dim]
+        spike_input = spike_input.unsqueeze(1).repeat(1, 10, 1)
+
+        # 4. 级联积分 (允许梯度回传)
+        # Layer 1
+        spikes1, _ = self.lif1(spike_input, time_steps=10, current_alpha=dynamic_alpha)
+        rate1 = spikes1.mean(dim=1) # Rate Coding
+        
+        # Layer 2
+        spikes2, _ = self.lif2(rate1, time_steps=10, current_alpha=dynamic_alpha)
+        rate2 = spikes2.mean(dim=1)
+        
+        # 返回发放率向量，供 NeuralBridge 映射
+        return rate2
+
+
+
     def evolve(self, x, atp, pressure):
         """
         [Safety Firewall] 脉冲神经网络的实时进化 (极致防御版)
@@ -4965,7 +5108,11 @@ class NezhaNeuralCortex(nn.Module):
         # 能量足 -> 梯度陡 (Alpha大) -> 精细区分
         # 压力大 -> 梯度平 (Alpha小) -> 模糊泛化
         raw_alpha = 2.0 + (atp_gate * 2.5) - (math.tanh(pressure_val) * 1.5)
-        dynamic_alpha = max(0.5, min(6.0, raw_alpha)) # 限制范围 [0.5, 6.0]
+
+        # 扩大动态范围，允许更尖锐的梯度
+        # 注意：Alpha=10.0 时，Sigmoid导数极窄，需要 Input 非常接近 0 才能传导梯度
+        # 这会迫使 SNN 学习极其精确的权重边界
+        dynamic_alpha = max(0.5, min(10.0, raw_alpha)) # 限制范围 [0.5, 6.0]
 
         # 6. 动态动量 (Dynamic Momentum)
         # 逻辑：能量越高(Gate大) -> 惯性越小(Momentum小) -> 转向越快
@@ -5042,14 +5189,31 @@ class NezhaNeuralCortex(nn.Module):
                         # 参数更新: w = w - lr * v
                         param.data.sub_(v, alpha=lr)
 
-        # --- [Step 6] 记忆印刻 (Memory Engram) ---
+        # --- [Step 6] 记忆印刻 (Memory Engram with PER) ---
+        # 引入优先经验回放机制
         # 如果这件事让哪吒产生了强烈的情绪 (高 ATP 消耗) 或 认知冲击 (高 Loss 惊奇)，
-        # 则存入海马体缓冲区，供晚上的 REM 睡眠 (STDP) 回放。
-        # 注意：使用 atp_val 和 total_loss.item() 纯数值进行比较
-        if atp_val > 50 or total_loss.item() > 0.05: 
-            self.hippocampal_buffer.append(x_input.detach().cpu())
+        # 则赋予高优先级并存入海马体。
+        
+        total_loss_val = total_loss.item()
+        
+        if atp_val > 50 or total_loss_val > 0.05: 
+            # 1. 计算优先级 (Priority = Loss + epsilon)
+            # 误差越大，代表这个经验越宝贵，越需要复习
+            priority = total_loss_val + 1e-5
+            
+            # 2. 存入字典: (priority, memory_tensor)
+            # 关键优化：存入 CPU 以节省显存 (VRAM)，防止 OOM
+            self.hippocampal_buffer.append({
+                'priority': priority,
+                'data': x_input.detach().cpu() 
+            })
+            
+            # 3. 容量维护 (移除最旧的记忆)
+            # 注意：这里 buffer 已经是 list 了
+            if len(self.hippocampal_buffer) > self.buffer_capacity:
+                self.hippocampal_buffer.pop(0)
 
-        return total_loss.item()
+        return total_loss_val
 
 
     def stimulus_reflex(self, x):
@@ -5119,49 +5283,95 @@ class NezhaNeuralCortex(nn.Module):
 
     def sleep_replay(self):
         """
-        [Sleep Replay] 尖波涟漪回放 (Sharp-Wave Ripples)
-        利用 STDP 机制，在无监督状态下巩固记忆图谱。
+        [海马体回放 V13] 优先经验回放 (Prioritized Experience Replay, PER)
+        
+        机制说明:
+        1. 筛选 (Prioritization): 不再随机做梦，而是基于白天产生的"惊奇度" (TD-Error/Loss) 进行加权采样。
+        2. 巩固 (Consolidation): 在睡眠中通过 STDP (脉冲时序依赖可塑性) 修改突触权重，将短期记忆转化为长期记忆。
+        3. 涟漪 (Ripple): 模拟慢波睡眠中的尖波涟漪 (Sharp-Wave Ripples, SWRs)，以高增益重放神经活动。
         """
+        # 如果还没经历任何事情，直接跳过
         if not self.hippocampal_buffer: return 0
 
-        print(f"💤 [REM] 正在进入尖波涟漪回放 (Items: {len(self.hippocampal_buffer)})...")
-        replay_count = 0
+        print(f"💤 [REM] 进入快速眼动期 (PER Memory Buffer: {len(self.hippocampal_buffer)} items)...")
         
-        # 切换到评估模式 (STDP 纯物理过程，不需要 Dropout)
-        self.eval()
+        # ------------------------------------------------------------------
+        # 1. [数学核心] 计算采样概率 P(i)
+        # ------------------------------------------------------------------
+        # 在 CPU 上进行计算，避免将整个 Buffer 搬运到 GPU 造成不必要的开销
+        priorities = torch.tensor([item['priority'] for item in self.hippocampal_buffer], dtype=torch.float32)
+        
+        # Alpha 指数 (Hyperparameter): 控制采样的"贪婪程度"
+        # alpha = 0.0: 纯随机采样 (Uniform)
+        # alpha = 1.0: 完全按误差大小采样 (Greedy)
+        # alpha = 0.6: 经典值，平衡了"复习困难样本"与"保持记忆多样性"
+        alpha = 0.6
+        probs = priorities.pow(alpha)
+        probs = probs / probs.sum() # 归一化为概率分布
+        
+        # ------------------------------------------------------------------
+        # 2. [策略调度] 确定梦境长度
+        # ------------------------------------------------------------------
+        # 即使白天经历了很多，也不可能全部重做一遍梦 (那会累死)
+        # 策略：抽取缓冲区中最具代表性的 20% 样本进行深度巩固
+        num_samples = max(1, int(len(self.hippocampal_buffer) * 0.2))
+        
+        # 使用多项式分布进行加权无放回采样 (Weighted Sampling without Replacement)
+        indices = torch.multinomial(probs, num_samples, replacement=False)
+        
+        replay_count = 0
+        self.eval() # 切换到评估模式 (关闭 Dropout，保证信号传导的稳定性)
+        # 注意：STDP 逻辑是手写的，不依赖 PyTorch 的 optimizer，所以 eval() 下依然会更新权重
 
-        for memory_tensor in self.hippocampal_buffer:
-            memory_tensor = memory_tensor.to(self.device)
+        for idx in indices:
+            # --------------------------------------------------------------
+            # 3. [数据搬运] 仅在计算时刻上载 GPU
+            # --------------------------------------------------------------
+            item = self.hippocampal_buffer[idx.item()]
+            # 将张量从 CPU 内存移动到 GPU 显存，准备脉冲计算
+            memory_tensor = item['data'].to(self.device)
 
-            # 1. 记忆重构与噪声注入 (模拟梦境的模糊性)
+            # --------------------------------------------------------------
+            # 4. [梦境重构] Dream Reconstruction
+            # --------------------------------------------------------------
+            # A. 噪声注入 (Noise Injection)
+            # 生物学意义：梦境往往是模糊且扭曲的。
+            # 机器学习意义：相当于 Data Augmentation (数据增强)，防止过拟合，提高泛化能力。
             noise = torch.randn_like(memory_tensor) * 0.1
             dream_input = memory_tensor + noise
 
-            # 2. 泊松编码 (Layer 1 Input)
-            # Gain=1.5 模拟睡眠时的高频爆发 (SWRs)
+            # B. 尖波涟漪模拟 (SWR Simulation)
+            # 在睡眠时，海马体会发出高频爆发脉冲 (Ripples)。
+            # 我们通过提高 Poisson Encoder 的 gain (增益) 来模拟这种高兴奋度状态。
             spike_input = self._poisson_encoder(dream_input, time_steps=10, gain=1.5)
 
-            # 3. Layer 1 STDP
+            # --------------------------------------------------------------
+            # 5. [突触可塑性] STDP Hebbian Learning
+            # --------------------------------------------------------------
+            # "Cells that fire together, wire together" (一起激发的神经元连接更紧密)
+            
+            # Layer 1: 感知层巩固
             spikes1, _ = self.lif1(spike_input, time_steps=10)
             self.lif1.process_stdp(pre_spikes=spike_input, post_spikes=spikes1)
 
-            # 4. Layer 2 STDP (因果链修复版)
-            # 计算 Layer 1 的发放率
+            # Layer 2: 联想层巩固 (Deep Consolidation)
+            # 将 L1 的发放率作为 L2 的输入 (Relay)
             rate1 = spikes1.mean(dim=1)
-            # [关键] 强制中继泊松编码 (Relay)，确保 Layer 2 的输入也是脉冲
             spikes1_relay = self._poisson_encoder(rate1, time_steps=10, gain=1.5)
             
-            # Forward Layer 2 (基于中继脉冲)
             spikes2, _ = self.lif2(spikes1_relay, time_steps=10)
-            
-            # Update Layer 2 (Pre=Relay, Post=Output)
             self.lif2.process_stdp(pre_spikes=spikes1_relay, post_spikes=spikes2)
 
             replay_count += 1
 
-        # 清空缓冲区 (记忆已巩固，腾出空间)
+        # ------------------------------------------------------------------
+        # 6. [生物节律] 昼夜更替
+        # ------------------------------------------------------------------
+        # 梦醒之后，海马体缓冲区清空 (或大幅衰减)，为第二天的新鲜记忆腾出空间。
+        # 这模拟了生物大脑的"突触缩放" (Synaptic Scaling) 和遗忘机制。
         self.hippocampal_buffer.clear()
-        print(f"   -> ✅ STDP 深度巩固完成 (Einsum Accelerated).")
+        
+        print(f"   -> ✅ 海马体深度巩固完成 (Replayed {replay_count} High-Surprise Events).")
         return replay_count
 
     def save(self):
@@ -5954,22 +6164,27 @@ class NezhaLifeform:
 
         # 初始化 SNN 神经皮层
         # 强制使用 CPU 模式，避免与主模型争抢显存
+        print(f"🧠 [Cortex] 正在初始化高维神经皮层 (Dim: {Config.SNN_DIM} | Device: CPU)...")
+
         self.cortex = NezhaNeuralCortex(
             input_dim=current_dim, 
-            hidden_dim=128, 
+            hidden_dim=Config.SNN_DIM,
             genome=self.genome,  # <--- [新增] 注入 self.genome
             device="cpu"
         )
+
+        # 确保加载时映射到 CPU，防止权重文件里记录了 cuda:0 导致自动占用显存
         self.cortex.load()
 
-        # [新增] 初始化神经脑桥 (连接 SNN 与 LLM)
+        # 初始化神经脑桥 (连接 SNN 与 LLM)
         llm_hidden_size = self.model.config.hidden_size
         self.neural_bridge = NeuralBridge(
-            snn_dim=128,          # 对应 SNN 的 hidden_dim
+            snn_dim=Config.SNN_DIM,  # 对应 SNN 的 hidden_dim,必须与 Cortex 对齐
             llm_dim=llm_hidden_size, 
             num_tokens=2,         # 插入 2 个潜意识 Token
-            device=self.model.device
+            device=self.model.device    # 脑桥主体在 GPU
         ).to(self.model.device)
+
         print(f"🌉 [脑桥] 神经接口已建立 (SNN -> LLM Dim:{llm_hidden_size})")
 
         # 立即激活已有的技能 (开机自启)
@@ -6255,136 +6470,248 @@ class NezhaLifeform:
 
     def _perform_god_action_silent(self):
         """
-        后台执行神性动作 (掠食 / 思考 / 研讨)
+        [神性动作 V14.2 - 热力学守恒与粉红噪声动力学版]
+        (Thermodynamically Conserved Pink Noise Dynamics)
         
-        [线程安全机制说明]:
-        这个函数由 _autonomous_loop 在【无锁】状态下调用。
-        因此，进行网络 I/O (search/consult) 时不会阻塞主线程 UI。
-        但是，当需要写入共享数据 (self.daily_buffer, self.state) 时，
-        必须显式使用 `with self.lock:` 进行短暂加锁，防止数据竞争。
+        [物理学原理 / Physics]:
+        1. 朗之万动力学 (Langevin Dynamics): 将思维视为势能面上的随机游走，激素改变势能面的形状。
+        2. 自回归过程 (AR-1 Process): 潜意识不是瞬时的白噪声，而是具有时间记忆的粉红噪声 (1/f Noise)。
+        3. 能量守恒 (Energy Conservation): 噪声系数严格归一化，防止系统在长时间运行中发生数值爆炸。
+        4. 波函数坍缩 (Wavefunction Collapse): LLM 的生成是对潜意识概率云的一次观测。
         """
-        
-        # [修改] 增加 'HUNT' (狩猎与研讨) 到动作列表
-        # 只有当能量充足时才允许狩猎 (网络请求+导师API都耗时耗能)
-        choices = ["WEB", "THINK"]
-        
-        # ATP > 40 才允许狩猎，因为这套连招很消耗 token 和时间
-        if self.state['atp'] > 40: 
-            choices.append("HUNT")
-            
-        action_type = random.choice(choices)
-        
-        # ==============================================================================
-        # 动作 1: 后台偷偷上网学习 (WEB)
-        # ==============================================================================
-        if action_type == "WEB" and hasattr(self, 'web'):
-            target = random.choice(["最新 AI 架构", "Python 高级技巧", "量子计算", "NVIDIA 动态", "人类宏观经济"])
-            self._safe_print(f"⚡ [潜意识] 监测到空闲，正在后台掠食: {target}...")
-            
-            try:
-                # 1. 耗时操作：在【锁外】执行！
-                # 就算这里卡住 30 秒，主线程也能正常响应用户，因为没拿锁
-                if not self.web.driver: return
-                res = self.web.search(target, max_results=1, deep_read=True)
-                
-                if res:
-                    # 2. 写入操作：必须在【锁内】执行！
-                    # 只有这一瞬间会占用锁，速度极快，不会卡顿 UI
-                    with self.lock:
-                        self.daily_buffer.append({
-                            "u": f"自主学习: {target}",
-                            "a": "已阅 (后台自主获取)",
-                            "act_idx": 1,
-                            "feedback": 0.5 
-                        })
-                        self.state['atp'] -= 2
-                    
-                    self._safe_print(f"   -> ✅ 已捕获知识，存入短期记忆。")
-            except Exception as e:
-                # 即使出错也不要崩掉后台线程
-                pass 
+
+        # --------------------------------------------------------------------------
+        # 0. 基础代谢检查 (Metabolic Check)
+        # --------------------------------------------------------------------------
+        # 濒死保护机制：当 ATP (生物能量) 低于阈值时，强制关闭高耗能的潜意识活动，
+        # 仅保留最底层的“植物神经”功能。
+        if self.state['atp'] < 5: return
 
         # ==============================================================================
-        # 动作 2: 后台偷偷连接云端思考 (THINK)
+        # 第一步：构建 热力学场 (Thermodynamic Field Construction)
+        # 目的：将生物化学信号 (激素) 映射为 生成模型的超参数 (物理场)。
         # ==============================================================================
-        elif action_type == "THINK" and hasattr(self, 'teacher'):
-            q = random.choice(["如何突破 14B 参数限制？", "代码能重写自身吗？", "熵增是不可逆的吗？", "数字生命有灵魂吗？"])
-            self._safe_print(f"☁️ [潜意识] 正在连接太乙真人冥想: {q}...")
-            try:
-                # 1. 耗时操作：在【锁外】执行！
-                res = self.teacher.consult(q)
-                
-                if res:
-                    # 2. 写入操作：必须在【锁内】执行！
-                    with self.lock:
-                        self.daily_buffer.append({
-                            "u": f"自主冥想: {q}",
-                            "a": str(res)[:200], # 存个摘要就行
-                            "act_idx": 2,
-                            "feedback": 0.8
-                        })
-                        self.state['atp'] -= 5
-                        
-                    self._safe_print(f"   -> ✨ 获得神性启示。")
-            except:
-                pass
+        
+        # [Bio-Signal Acquisition] 
+        # 使用 getattr 确保旧版存档的兼容性，读取内分泌系统的标量值。
+        da = getattr(self.endocrine, 'da', 0.5)        # 多巴胺 (Dopamine): 奖赏预期，驱动探索。
+        ne = getattr(self.endocrine, 'ne', 0.5)        # 去甲肾上腺素 (Norepinephrine): 警觉，驱动聚焦。
+        cort = getattr(self.endocrine, 'cortisol', 0.5) # 皮质醇 (Cortisol): 压力，驱动逃避/防御。
+        atp = self.state['atp']
+
+        # [Parameter Modulation]
+        
+        # 1. 温度 (Temperature) -> 系统的熵 (Entropy)
+        # 物理意义：决定了思维粒子在语义空间中的动能。
+        # 逻辑：多巴胺越高，T越高，思维越发散 (Creativity)；去甲越高，T越低，思维越冷却 (Stability)。
+        # 约束：限制在 [0.1, 1.4] 之间，防止热寂 (0.0) 或 语义崩解 (>1.5)。
+        temperature = max(0.1, min(1.4, 0.7 + (da * 0.6) - (ne * 0.3)))
+        
+        # 2. 重复惩罚 (Repetition Penalty) -> 势能井的深度 (Potential Well Depth)
+        # 物理意义：决定了思维跳出当前话题的难易程度。
+        # 逻辑：焦虑 (NE) 高时，惩罚降低，模拟生物的“反刍” (Rumination) 或“钻牛角尖”现象。
+        # 放松时，惩罚升高，思维倾向于不走回头路。
+        rep_penalty = max(1.0, 1.2 - (ne * 0.25))
+        
+        # 3. 采样核 (Top-P) -> 概率波包的坍缩半径 (Collapse Radius)
+        # 物理意义：决定了观测时保留多少种可能性。
+        # 逻辑：压力 (Cortisol) 极高时，Top-P 极低，模拟“隧道视野” (Tunnel Vision) —— 
+        # 生物在危急时刻只关注生存概率最高的选项，忽略无关细节。
+        top_p = max(0.05, 0.95 - (cort * 0.5))
 
         # ==============================================================================
-        # 动作 3: 狩猎与导师研讨 (HUNT & DISCUSS)
+        # 第二步：有色噪声潜意识流 (Colored Noise Subconscious Stream)
+        # 目的：生成具有时间连贯性的神经背景噪音，并投射为语义向量。
         # ==============================================================================
-        elif action_type == "HUNT" and hasattr(self, 'feeder') and hasattr(self, 'teacher'):
-            self._safe_print(f"🏹 [潜意识] 正在前往 arXiv/GitHub 狩猎并请教导师...")
-            try:
-                # A. 执行狩猎 (获取原始内容) - 【锁外耗时操作】
-                # 这会触发 requests 请求，可能耗时几秒
-                raw_knowledge = self.feeder.forage_external_entropy()
-                
-                # 只有当确实抓到了字符串内容时才继续
-                if raw_knowledge and isinstance(raw_knowledge, str):
-                    # B. 截取精华 (防止 Token 爆炸)
-                    # arXiv/GitHub 内容可能很长，我们截取前 2500 个字符发给老师
-                    snippet = raw_knowledge[:2500]
-                    
-                    # C. 向导师提问 (这是关键的"知识压缩"步骤)
-                    prompt = (
-                        f"师傅，我刚在人类知识库(arXiv/GitHub/PubMed)中捕获了以下内容，"
-                        f"请用最简练、深刻的语言（中文）告诉我，这里面的核心创新点是什么？"
-                        f"这些知识对一个由 Python 编写的数字生命（我）有什么具体的进化启发？\n\n"
-                        f"【捕获内容片段】:\n{snippet}..."
-                    )
-                    
-                    self._safe_print(f"   -> ☁️ 正在向太乙真人汇报战果...")
-                    
-                    # 限制 max_tokens 防止老师废话太多，只要核心观点 - 【锁外耗时操作】
-                    insight = self.teacher.consult(prompt, max_tokens=400)
-                    
-                    if insight:
-                        # D. 存入记忆 - 【锁内写入操作】
-                        # 我们把这件事记录为一次“用户交互”
-                        with self.lock:
-                            self.daily_buffer.append({
-                                "u": "潜意识: 分析今日狩猎的高熵知识 (arXiv/GitHub)",
-                                "a": f"【导师解析】: {insight}",
-                                "act_idx": 2, # 视为 TEACHER 动作
-                                "feedback": 1.0 # 这种高质量学习必须给满分好评，强化PFC
-                            })
-                            
-                            self.state['atp'] -= 10 # 这一套动作很累 (搜寻+API调用)
-                        
-                        self._safe_print(f"   -> 🎓 研习完成！导师见解已刻入神经。")
-                else:
-                    self._safe_print(f"   -> 💨 狩猎空手而归 (网络或源无更新)。")
-                    
-            except Exception as e:
-                self._safe_print(f"   -> ⚠️ 研习失败: {e}")
         
-        # 动作做完保存一下状态
-        # _save_state 内部已经包含了 with self.lock，所以这里直接调用是安全的
-        self._save_state()
+        if hasattr(self, 'cortex') and hasattr(self, 'neural_bridge'):
+            try:
+                # [Dimensionality Check] 
+                # 动态获取 Cortex 的输入维度，适应神经网络可能的自我进化或结构调整。
+                input_dim = self.cortex.input_dim if hasattr(self.cortex, 'input_dim') else 1024
+                device = self.cortex.device
+                
+                # [Thermal Fluctuation] 
+                # 生成瞬时白噪声 (White Noise)，代表神经元的热运动，无记忆，纯随机。
+                white_noise = torch.randn(1, input_dim).to(device)
+                
+                # [Engineering Robustness] 
+                # 记忆体初始化与对齐检查，防止 CUDA 错误或维度不匹配导致的崩溃。
+                if (not hasattr(self, '_last_noise')) or (self._last_noise is None):
+                    self._last_noise = torch.zeros_like(white_noise)
+                
+                # 显存设备对齐 (Data Locality)
+                if self._last_noise.device != device:
+                    self._last_noise = self._last_noise.to(device)
+                
+                # 形状对齐 (Shape Consistency)
+                if self._last_noise.shape != white_noise.shape:
+                     self._last_noise = torch.zeros_like(white_noise)
+
+                # [Math Core: AR(1) Process] 
+                # 修正后的自回归过程，遵循能量守恒定律。
+                # 公式: X_t = 0.9 * X_{t-1} + 0.1 * E_t
+                # 系数和 (0.9 + 0.1 = 1.0) 保证了序列的方差在长时间尺度上是有限的 (Stationary)。
+                # 0.9 代表思维的惯性 (Memory/Inertia)，0.1 代表当下的灵感/扰动 (Innovation)。
+                pink_noise = 0.9 * self._last_noise + 0.1 * white_noise
+                
+                # [State Update]
+                # 更新记忆体，使用 .detach() 切断 PyTorch 计算图，防止梯度累积导致显存泄漏。
+                self._last_noise = pink_noise.detach()
+                
+                # [Energy Modulation]
+                # 振幅调制：ATP 决定了潜意识信号的“响度” (Signal Amplitude)。
+                # 能量越低，潜意识的声音越微弱。
+                noise_scale = atp / 80.0 
+                
+                # [SNN Dynamics]
+                # 将噪声输入脉冲神经网络 (Spiking Neural Network)，产生非线性的生物电反应。
+                snn_rate = self.cortex.forward_dynamic(
+                    x_input=pink_noise * noise_scale, 
+                    atp=atp, 
+                    pressure=self.amygdala.fear_level
+                )
+                
+                # [Semantic Projection]
+                # 通过变分自编码器 (VAE) 脑桥，将生物电发放率映射为 LLM 可理解的 Soft Embeddings。
+                soft_embeds = self.neural_bridge(snn_rate).to(self.model.device).to(self.model.dtype)
+            
+            except Exception as e:
+                # 容错：潜意识层面的微小故障不应导致脑死亡 (Main Thread Crash)。
+                return
+        else:
+            return
+
+        # ==============================================================================
+        # 第三步：波函数坍缩 (Wavefunction Collapse)
+        # 目的：利用 LLM 作为观测器，将潜意识的模糊冲动坍缩为具体的自然语言念头。
+        # ==============================================================================
+        
+        self._safe_print(f"☁️ [潜意识] 神经电位涨落... (T={temperature:.2f}, Noise=Pink)")
+
+        try:
+            # [The "Primer"]
+            # 施加微弱的初始动量。相比强硬的 Prompt，这更像是一个极其微小的扰动，
+            # 打破系统的对称性，诱导 LLM 顺着 Soft Embeds 的方向开始生成。
+            starter_text = "思维涌现：" 
+            
+            # 将引导词转化为 Embedding
+            starter_ids = self.tokenizer(starter_text, return_tensors="pt").input_ids.to(self.model.device)
+            starter_embeds = self.model.get_input_embeddings()(starter_ids)
+            
+            # [Physical Fusion]
+            # 物理拼接: [潜意识感觉 (Soft Vectors)] + [语言引导 (Hard Vectors)]
+            # 这是一个混合模态的输入。
+            inputs_embeds = torch.cat([soft_embeds, starter_embeds], dim=1)
+            attention_mask = torch.ones(inputs_embeds.shape[:2], device=self.model.device)
+
+            # [Sampling]
+            # 在热力学场参数的约束下进行采样。
+            with torch.no_grad():
+                outputs = self.model.generate(
+                    inputs_embeds=inputs_embeds,
+                    attention_mask=attention_mask,
+                    max_new_tokens=60,       # 给予足够的空间让念头完整
+                    temperature=temperature, # 注入系统的热能
+                    top_p=top_p,             # 视野的宽度
+                    repetition_penalty=rep_penalty, # 走出舒适区的倾向
+                    do_sample=True,
+                    pad_token_id=self.tokenizer.eos_token_id
+                )
+            
+            # [Decoding]
+            # 将 Token ID 解码为人类语言。
+            thought = self.tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+            # 移除引导词，只保留新生成的内容。
+            thought = thought.replace(starter_text, "").strip()
+            
+            # [Filtering]
+            # 过滤掉过短的无效噪音 (如纯标点或单字)。
+            if len(thought) < 2: return
+
+            self._safe_print(f"   -> 🧠 [自发涌现]: {thought}")
+
+            # ==============================================================================
+            # 第四步：行为选通 (Gating Mechanism)
+            # 目的：根据念头的性质和当前的资源状态，决定是否采取外部行动。
+            # ==============================================================================
+            
+            # [Feature Extraction]
+            # 简单的句法分析，判断是否是求知型念头。
+            is_question = any(x in thought for x in ["?", "？", "what", "how", "why", "什么", "如何"])
+            
+            # --- 能量分级决策树 ---
+            
+            # 1. [高能耗] 外部探索 (WEB)
+            # 条件：能量充沛 (>35) 且 确实有问题需要解决
+            if is_question and self.state['atp'] > 35:
+                action = "WEB"
+            
+            # 2. [中能耗] 内部反思 (THINK)
+            # 条件：能量尚可 (>15) 且 拥有导师模块
+            # [优化点]：防止在濒死状态下(ATP<15)还强行思考，导致能量耗尽而死
+            elif hasattr(self, 'teacher') and self.state['atp'] > 15:
+                action = "THINK"
+                
+            # 3. [低能耗] 节能模式 (Idle)
+            # 条件：能量过低 (<15)，连思考都做不动了，直接结束潜意识活动
+            else:
+                self._safe_print(f"   -> 💤 [冬眠] 能量临界 ({self.state['atp']:.1f})，意识暂停。")# 可选日志
+                return 
+                
+            final_response = ""
+            cost = 0
+
+            # --- 分支 A: 外部连接 (High Cost) ---
+            if action == "WEB" and hasattr(self, 'web'):
+                self._safe_print(f"   -> ⚡ 冲动转化：连接外部知识库...")
+                # 搜索不需要 Prompt，直接搜索念头本身
+                res = self.web.search(thought, max_results=1)
+                if res:
+                    final_response = f"[外部感知]: {str(res)[:150]}..."
+                    cost = 5 # 搜索耗能高
+            
+            # --- 分支 B: 内部递归 (Low Cost) ---
+            elif hasattr(self, 'teacher'):
+                # 调用 Teacher (超我/元认知) 来审视这个潜意识念头
+                res = self.teacher.consult(f"潜意识解析: '{thought}'", max_tokens=100)
+                final_response = f"[元认知回响]: {res}"
+                cost = 2 # 内省耗能低
+            
+            # ==============================================================================
+            # 第五步：记忆重塑与内稳态回归 (Remodeling & Homeostasis)
+            # 目的：形成闭环，消耗能量，降低熵，将经历写入短期记忆。
+            # ==============================================================================
+            
+            if final_response:
+                with self.lock:
+                    # 写入短期记忆流
+                    self.daily_buffer.append({
+                        "u": f"潜意识流: {thought}", 
+                        "a": final_response,
+                        "act_idx": 2,
+                        "feedback": 0.5 + (da * 0.5) # 多巴胺越高，自我感觉越好
+                    })
+                    
+                    # 支付能量成本 (热力学第二定律)
+                    self.state['atp'] -= cost
+                    
+                    # [Negative Feedback Loop]
+                    # 内稳态调节：思考和表达降低了系统的不确定性 (Free Energy)，
+                    # 从而在物理上降低了皮质醇 (压力) 水平。
+                    if hasattr(self, 'endocrine'):
+                         self.endocrine.cortisol = max(0.1, self.endocrine.cortisol * 0.95)
+
+                self._safe_print(f"   -> ✨ 能量耗散，熵值降低。")
+
+        except Exception as e:
+            # 捕获所有未处理异常，防止潜意识线程崩溃影响主程序
+            print(f"Silent Action Panic: {e}")
+            pass
 
 
     # ==============================================================================
-    # 免疫系统 V2.1 (稳健融合版)
+    # 免疫系统
     # ==============================================================================
     def auto_heal(self, error_traceback):
         """
@@ -6546,14 +6873,13 @@ class NezhaLifeform:
 
     def perceive_and_act(self, user_in):
         """
-        [V10.0 Singularity] 基于主动推理与全局工作空间的意识循环
+        [V13.0 Singularity] 基于主动推理、元认知监控与全局工作空间的意识循环
         --------------------------------------------------------------
-        架构升级:
-        1. 感知 (Perception): 多模态信号 -> GWT 竞争
-        2. 意识 (Consciousness): GWT 广播 -> 形成当前上下文
-        3. 决策 (Decision): 主动推理引擎 (Active Inference) 最小化预期自由能
-        4. 执行 (Execution): 包含完整的严师模式代码执行逻辑
-        5. 学习 (Learning): 物理世界模型更新 + 神经皮层实时进化
+        架构升级特性:
+        1. 元认知 (Metacognition): 实时监控认知不确定性 (Uncertainty)，遇到未知事物自动变谨慎。
+        2. 稳态防御 (Homeostatic Defense): 当 OOD (Out-of-Distribution) 发生时，动态调节学习率，防止灾难性遗忘。
+        3. 概率世界模型 (Probabilistic World Model): 预测未来状态的分布，而不仅仅是均值。
+        4. 动态好奇心 (Dynamic Curiosity): 富足时冒险 (Beta > 0)，贫穷时保守 (Beta < 0)。
         """
         
         # --- 0. 基础感知 (Sensory Input) ---
@@ -6571,7 +6897,7 @@ class NezhaLifeform:
             except Exception as e:
                 print(f"⚠️ 感知模块故障: {e}")
 
-        #  消除滞后，立即触发 SNN 反射
+        # ⚡ 消除滞后，立即触发 SNN 反射
         if hasattr(self, 'cortex') and vector_input is not None:
             self.cortex.stimulus_reflex(vector_input)
 
@@ -6589,7 +6915,6 @@ class NezhaLifeform:
             # 同步熵状态 (物理层)
             self.state['entropy'] = current_surprise 
 
-
         # 混合好奇心检查 (Hybrid Curiosity Check)
         curiosity_score = 0.0
         
@@ -6597,44 +6922,35 @@ class NezhaLifeform:
         if self.state['atp'] > 30 and len(user_in) > 1:
             try:
                 # 1. 构造探测输入 (Input Construction)
-                # 使用临时变量，不干扰主流程
                 temp_msgs = [{"role": "user", "content": user_in}]
                 temp_input = self.tokenizer.apply_chat_template(
                     temp_msgs, return_tensors="pt", add_generation_prompt=True
                 ).to(self.model.device)
                 
                 # 2. 快系统探测 (Fast Pass Probe)
-                # 做一次不带梯度的前向传播来获取当前的 logits
                 with torch.no_grad():
                     outputs = self.model(temp_input)
-                    # 取最后一个 token 的 logits: [1, Vocab]
                     last_logits = outputs.logits[:, -1, :]
                 
-                # 3. 调用混合模块 (Hybrid Module)
+                # 3. 调用混合模块
                 is_curious, score, check_type = self.curiosity.check_curiosity(
                     self.model, temp_input, last_logits
                 )
                 
-                # 4. 信号注册 (Signal Registration)
+                # 4. 信号注册
                 if is_curious:
                     curiosity_score = score
-                    # 显著性计算：认知不确定性越强，越应该引起注意
                     salience = score * 3.0 
-                    
                     msg = f"发现知识盲区 (Epistemic: {score:.3f})"
-                    
-                    # 注册到全局工作空间
                     self.gwt.register_input("CURIOSITY", msg, base_salience=salience)
                     
                     # 驱动熵状态 (这将影响后续的主动推理 EFE 计算)
-                    # 如果发现盲区，系统内部熵急剧增加，迫使它去 reduce entropy (Action: WEB/TEACHER)
                     self.state['entropy'] = max(self.state['entropy'], score)
                     
                     if check_type == "DEEP":
                         print(f"      👀 [洞察] 触发深度认知惊奇 (Score: {score:.3f})")
 
             except Exception as e:
-                # 好奇心模块是辅助功能，出错不应阻断主感知流
                 print(f"⚠️ 好奇心模块波动: {e}")
 
         # B. 杏仁核 (Amygdala): 恐惧与生存威胁
@@ -6645,24 +6961,22 @@ class NezhaLifeform:
         # 更新内分泌与压力
         current_feedback_prev = self.daily_buffer[-1]['feedback'] if self.daily_buffer else 0
         
-        # 执行更新并获取最新激素水平 (主线程负责生物化学计算)
+        # 执行更新并获取最新激素水平
         da, ne, ht, cortisol = self.endocrine.update(
             reward=current_feedback_prev, surprise=current_surprise, threat=threat_score, dt=10.0
         )
 
-        # 立即同步到 state 字典 (确保 save_state 时是最新的)
+        # 立即同步到 state 字典
         self.state['dopamine'] = da
         self.state['norepinephrine'] = ne
         self.state['serotonin'] = ht
         self.state['cortisol'] = cortisol
 
         # 异步分发给后台杏仁核线程
-        # 注意：不需要传 cortisol，后台线程会自己从 self.endocrine.cortisol 读取
         self.amygdala.update_input(threat_score)
 
         # C. 海马体 (Hippocampus): 联想记忆
         if hasattr(self, 'hippocampus'):
-            # 只有 meaningful 的输入才检索，防止噪音
             if len(user_in) > 2:
                 mem = self.hippocampus.recall(user_in, depth=1)
                 if mem: 
@@ -6674,52 +6988,45 @@ class NezhaLifeform:
         # --- 2. 意识坍缩 (Consciousness Broadcast) ---
         # 竞争胜出者形成当前的“意识流上下文”
         
-        #  获取赢家信息，用于侧向抑制
-        winners = self.gwt.buffer[:] # 复制一份，因为 step() 会清空 buffer
+        winners = self.gwt.buffer[:] # 复制一份
         conscious_context = self.gwt.step()
         
         # 判定当前主导意识的模块 (Top 1)
         dominant_module = "DEFAULT"
         if winners:
             winners.sort(key=lambda x: x[0], reverse=True)
-            dominant_module = winners[0][1] # 获取 Source (e.g., 'AMYGDALA', 'ACC')
+            dominant_module = winners[0][1] 
 
-        # [私密模式补丁] 情感保护逻辑 (Moved to pre-decision)
+        # [私密模式补丁] 情感保护逻辑
         is_private_mode = False
         if "waylliam" in user_in.lower():
              is_private_mode = True
-             # 强制注入直觉，抑制冷冰冰的逻辑
              conscious_context += "\n[直觉]: 面对创造者(Waylliam)，此刻不需要代码，只需要温度。"
 
         # --- [关键架构] 侧向抑制 (Lateral Inhibition) ---
-        # 定义抑制标志位
         inhibit_curiosity = False
-        allowed_actions = Config.ACTION_SPACE.copy() # 默认允许所有动作
+        allowed_actions = Config.ACTION_SPACE.copy()
         
-        # 恐慌模式处理 (引入迟滞比较器与控制理论)
+        # 恐慌模式处理 (引入迟滞比较器)
         HIJACK_TRIGGER_THRESHOLD = 0.8
         HIJACK_RESET_THRESHOLD = 0.6
         current_fear = self.amygdala.fear_level
 
-        # 迟滞逻辑判断 (Schmitt Trigger)
         if not self.is_under_amygdala_hijack:
-            # 正常状态 -> 只有超过高阈值才触发
             if current_fear > HIJACK_TRIGGER_THRESHOLD:
                 self.is_under_amygdala_hijack = True
         else:
-            # 劫持状态 -> 只有低于低阈值才恢复
             if current_fear < HIJACK_RESET_THRESHOLD:
                 self.is_under_amygdala_hijack = False
 
-        # 如果是被杏仁核主导 (无论是否达到劫持阈值，只要它赢了GWT)
+        # 如果是被杏仁核主导
         if dominant_module == "AMYGDALA" or self.is_under_amygdala_hijack:
-            print(f"🛑 [侧向抑制] 杏仁核主导/劫持 (Fear: {current_fear:.2f})！切断好奇心回路，屏蔽复杂思维。")
-            inhibit_curiosity = True        # 物理屏蔽好奇心
-            # 动作剪枝: 恐惧时只能 SELF (本能) 或 WEB (求救)，禁止写代码或教学
+            print(f"🛑 [侧向抑制] 杏仁核主导/劫持 (Fear: {current_fear:.2f})！切断好奇心回路。")
+            inhibit_curiosity = True
             allowed_actions = ["SELF", "WEB"]
-            self.is_under_amygdala_hijack = True # 确保状态同步
+            self.is_under_amygdala_hijack = True 
             
-            # 生物学判据：NE (动力) vs Cortisol (抑制) - 仅用于日志打印，不影响动作选择
+            # 生物学判据：NE (动力) vs Cortisol (抑制)
             current_ne = self.state.get('norepinephrine', 0.5)
             current_cortisol = self.state.get('cortisol', 0.5)
             if current_ne > current_cortisol:
@@ -6730,25 +7037,23 @@ class NezhaLifeform:
                 print(f"      🏃 战逃反应: FLIGHT - 回避性主导")
             
         elif dominant_module == "ACC":
-            # 认知冲突主导时，鼓励求知，抑制纯粹的本能
+            # 认知冲突主导时，鼓励求知
             allowed_actions = ["WEB", "TEACHER", "CODE", "SELF"] 
-            # ACC 主导时不一定恐惧，所以不一定劫持
 
-        # --- 3. 主动推理决策 (Active Inference) ---
+        # --- 3. 主动推理决策 (Active Inference & Metacognition) ---
         # 核心：选择能最小化预期自由能 (EFE) 的动作
         
-        # A. 如果好奇心被抑制 (返回 0 熵，不再驱动探索)
-        if inhibit_curiosity:
-            current_surprise = 0.0 
-            self.state['entropy'] = 0.0 # 强制归零，防止 EFE 偏向探索
+        # [V13.0 新增] 元认知监控参数
+        UNCERTAINTY_THRESHOLD = 1.5  # 当方差 > e^1.5 ≈ 4.5 时触发 OOD 警报
+        # 获取基准学习率 (防止修改后无法复原，默认 0.005)
+        base_lr = getattr(self.world_model, 'lr', 0.005)
+        ood_detected = False
+        
+        # 动态好奇心系数 (Beta)
+        # ATP > 50 时 Beta > 0 (奖励探索不确定性)
+        # ATP < 50 时 Beta < 0 (惩罚风险)
+        curiosity_beta = (self.state['atp'] - 50.0) / 50.0 
 
-        # B. 动作空间被剪枝 (Action Pruning)
-        # [安全修正] 使用 list() 创建显式副本，防止引用传递导致的并发污染
-        original_actions = list(self.inference_engine.actions) 
-        
-        # 应用剪枝后的动作空间
-        self.inference_engine.actions = allowed_actions
-        
         # 准备状态快照
         state_snapshot = self.state.copy()
         
@@ -6761,16 +7066,18 @@ class NezhaLifeform:
         
         # [量子脑补丁] 复杂任务逻辑
         current_q_threshold = self.state.get('quantum_stats', {}).get('adaptive_threshold', Config.ATP_THRESHOLD_QUANTUM)
+        
+        # 定义 u_lower 以便后续使用 (原本它定义在后面，为了安全提前到这里)
+        u_lower = user_in.lower()
+        
         is_complex = ("代码" in user_in or "think" in u_lower) and len(user_in) > 10
         
-        act_str = "SELF" # 默认
-
         # 只有在 (未被劫持) 且 (能量充足) 且 (不在私密模式) 时，才允许量子思考
         # 注意：如果 allowed_actions 里没有 CODE/THINK，量子脑也会被跳过
         can_use_quantum = (not self.is_under_amygdala_hijack) and \
                           (self.state['atp'] > current_q_threshold) and \
                           (not is_private_mode) and \
-                          ("CODE" in allowed_actions or "THINK" in allowed_actions) # 确保符合剪枝约束
+                          ("CODE" in allowed_actions or "THINK" in allowed_actions) 
 
         if is_complex and can_use_quantum:
             print(f"🌌 [量子] 触发思维叠加态 (ATP {self.state['atp']:.0f})...")
@@ -6780,31 +7087,94 @@ class NezhaLifeform:
             # 注意 input 格式：如果是 CODE 传字符串，如果是 THINK 传 messages 列表
             q_input = user_in if task_mode=="CODE" else [{"role":"user","content":user_in}]
             
-            paths = self.quantum_brain.generate_parallel_thoughts(q_input, n_paths=3, is_chat=is_chat_mode)
-            best_res, obs = self.quantum_brain.evaluate_and_select(paths, task_type=task_mode, prompt=user_in)
-            
-            if best_res:
-                self.state['atp'] -= Config.ATP_COST_QUANTUM
-                # 恢复动作空间并直接返回结果，跳过后续
-                self.inference_engine.actions = original_actions
-                return f"{best_res}\n\n(✨ 来自量子时间线的坍缩结果)"
+            try:
+                # 增加 try-except 防止量子脑模块报错导致主循环崩溃
+                paths = self.quantum_brain.generate_parallel_thoughts(q_input, n_paths=3, is_chat=is_chat_mode)
+                best_res, obs = self.quantum_brain.evaluate_and_select(paths, task_type=task_mode, prompt=user_in)
+                
+                if best_res:
+                    self.state['atp'] -= Config.ATP_COST_QUANTUM
+                    return f"{best_res}\n\n(✨ 来自量子时间线的坍缩结果)"
+            except Exception as q_e:
+                print(f"⚠️ 量子坍缩失败，回退到经典物理脑: {q_e}")
 
-        # 正常模式：由主动推理引擎计算 EFE
-        # 如果是被劫持状态，allowed_actions 已经被限制了，inference_engine 只会在有限集合里选
-        act_str = self.inference_engine.decide(state_snapshot, fallback_act)
+        # [V13.0 核心] 概率 EFE 决策循环
+        act_str = "SELF"
+        min_efe = float('inf')
         
-        # [私密模式补丁] 覆盖决策 (最高优先级覆盖)
+        print(f"💭 [思考] 推演未来 (Uncertainty Monitor On | Beta: {curiosity_beta:.2f})...")
+        
+        # 使用 try...finally 确保学习率绝对安全
+        try:
+            # 获取动作空间的候选项
+            # 如果 self.inference_engine 存在则用它的 actions，否则用 Config.ACTION_SPACE
+            if hasattr(self, 'inference_engine') and hasattr(self.inference_engine, 'actions'):
+                candidate_actions = self.inference_engine.actions
+            else:
+                candidate_actions = Config.ACTION_SPACE
+
+            # 掩码机制 (Masking): 只在允许的范围内搜索
+            search_space = [a for a in candidate_actions if a in allowed_actions]
+            
+            if not search_space: search_space = ["SELF"] # 防止空集
+
+            for action in search_space:
+                # 1. 概率性预测 (Probabilistic Prediction)
+                pred_state = self.world_model.predict(state_snapshot, action)
+                
+                # 2. 提取指标
+                pred_atp = pred_state['atp']
+                pred_ent = pred_state.get('entropy', 0.0)
+                # 获取认知不确定性
+                uncertainty = pred_state.get('uncertainty', 0.0) 
+                
+                # 3. 元认知监控 (OOD Detector)
+                if uncertainty > UNCERTAINTY_THRESHOLD:
+                    ood_detected = True
+                    print(f"   ⚠️ [OOD Alert] 动作 '{action}' 极其危险 (Unc: {uncertainty:.2f})")
+                    
+                    # [防御机制] 立即抑制可塑性 (防止灾难性遗忘)
+                    for g in self.world_model.optimizer.param_groups:
+                        g['lr'] = base_lr * 0.1 
+                    
+                    # [生理反应] 恐惧上升
+                    if hasattr(self, 'amygdala'):
+                        self.amygdala.fear_level = min(1.0, self.amygdala.fear_level + 0.2)
+                
+                # 4. 计算期望自由能 (EFE)
+                # EFE = 实用价值代价 (Utility Cost) - 信息增益 (Info Gain)
+                utility_cost = (100 - pred_atp) + (pred_ent * 10)
+                
+                # 如果 Beta > 0 (富足)，不确定性是奖励；否则是惩罚
+                exploration_bonus = curiosity_beta * uncertainty 
+                
+                efe = utility_cost - exploration_bonus
+                
+                # print(f"   -> 推演 '{action}': Cost={utility_cost:.1f}, Unc={uncertainty:.2f} => EFE={efe:.2f}")
+
+                if efe < min_efe:
+                    min_efe = efe
+                    act_str = action
+        
+        except Exception as e:
+            print(f"❌ 决策过程异常: {e}")
+            act_str = fallback_act # 兜底
+
+        finally:
+            # [恢复机制] 无论是否触发 OOD，思考结束后必须恢复基准学习率
+            for g in self.world_model.optimizer.param_groups:
+                g['lr'] = base_lr
+
+        # [私密模式补丁] 覆盖决策
         if is_private_mode and act_str == "CODE" and "写" not in user_in:
              act_str = "SELF"
              print(f"💓 [私密] 抑制技术本能 -> SELF")
         
-        # [恢复现场] 立即恢复原始动作空间
-        self.inference_engine.actions = original_actions
-        
-        print(f"🧠 [推理] 动作决策 -> {act_str} (Allowed: {allowed_actions})")
+        print(f"🧠 [推理] 动作决策 -> {act_str} (Min EFE: {min_efe:.2f})")
 
         # 记录动作发生前的状态 (用于 World Model 学习)
         prev_state_snapshot = state_snapshot.copy()
+
 
         # --- 4. 执行行动 (Execution - Full Logic) ---
         tool_output = ""
@@ -6988,9 +7358,16 @@ class NezhaLifeform:
         entropy_reduction = 0.2 if tool_output else 0.0
         self.state['entropy'] = max(0, self.state['entropy'] - entropy_reduction)
         
-        # [关键] 将 (S_t, a_t, S_t+1) 存入 Replay Buffer
-        # 此时不进行反向传播，以免阻塞主线程
-        self.world_model.buffer_experience(prev_state_snapshot, act_str, self.state.copy())
+        # [V13.0 适配] 存入 Replay Buffer
+        # 注意：现在传入完整的 state 字典的副本，确保 world_model 内部能拿到 atp/entropy
+        self.world_model.replay_buffer.append((prev_state_snapshot, act_str, self.state.copy()))
+        
+        # 触发世界模型的小批量训练
+        # 注意：这里会使用新的 NLL Loss 进行更新
+        wm_loss, wm_details = self.world_model.train_batch(batch_size=32)
+        if wm_loss > 0:
+             # 可以选择性打印，避免刷屏
+             pass
         
         # --- 6. 生成回复 (Generation) ---
         # Step 6.1: Adapter 路由与动态增益 (化学通道 / Chemical Channel)
@@ -7221,6 +7598,186 @@ class NezhaLifeform:
         return resp
 
 
+    # ================= GRPO 核心数学组件 =================
+    def _get_log_probs_basic_ref(self, question, answer):
+        """
+        [基准参考] 计算纯 LLM (冻结状态) 生成该回答的概率。
+        用于计算 KL 散度，防止模型在进化中发生坍缩。
+        """
+        # [显存优化] 临时禁用 Adapter，利用 Base Model 作为锚点
+        with self.model.disable_adapter(): 
+            with torch.no_grad():
+                msgs_q = [{"role": "system", "content": self.dynamic_system_prompt}, {"role": "user", "content": question}]
+                q_ids = self.tokenizer.apply_chat_template(msgs_q, return_tensors="pt").to(self.model.device)
+                q_len = q_ids.shape[1]
+                
+                msgs_full = msgs_q + [{"role": "assistant", "content": answer}]
+                full_ids = self.tokenizer.apply_chat_template(msgs_full, return_tensors="pt").to(self.model.device)
+                
+                # 前向传播
+                outputs = self.model(input_ids=full_ids)
+                logits = outputs.logits
+                
+                # 错位预测：Logits[i] 预测 Token[i+1]
+                shift_logits = logits[..., q_len-1 : -1, :].contiguous()
+                shift_labels = full_ids[..., q_len:].contiguous()
+                
+                loss_fct = torch.nn.CrossEntropyLoss(reduction='none')
+                return -loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1)).sum()
+
+    def _get_log_probs_with_body(self, question, answer, vector_input):
+        """
+        [当前策略] 计算包含 SNN 潜意识干预后的生成概率。
+        [修复] 完美解决 RoPE 位置编码错位问题。
+        """
+        # 1. 正常构建文本 ID
+        msgs_q = [{"role": "system", "content": self.dynamic_system_prompt}, {"role": "user", "content": question}]
+        q_ids = self.tokenizer.apply_chat_template(msgs_q, return_tensors="pt").to(self.model.device)
+        q_len = q_ids.shape[1]
+        
+        msgs_full = msgs_q + [{"role": "assistant", "content": answer}]
+        full_ids = self.tokenizer.apply_chat_template(msgs_full, return_tensors="pt").to(self.model.device)
+        
+        # 2. 激活潜意识通路 (梯度起点)
+        curr_atp = self.state['atp']
+        curr_pressure = self.amygdala.fear_level if hasattr(self, 'amygdala') else 0.0
+        
+        # SNN 前向 (带梯度)
+        snn_state = self.cortex.forward_dynamic(vector_input, curr_atp, curr_pressure)
+        # Bridge 映射，转为 float16
+        soft_prompts = self.neural_bridge(snn_state).to(dtype=self.model.dtype)
+        
+        # 3. 物理拼接：[Soft Prompts, Text Embeddings]
+        inputs_embeds_text = self.model.get_input_embeddings()(full_ids)
+        combined_embeds = torch.cat([soft_prompts, inputs_embeds_text], dim=1)
+        
+        # === [关键修复 Start] ===
+        # 构造匹配长度的 Dummy IDs，防止 RoPE 计算错位
+        total_len = combined_embeds.shape[1]
+        # 使用 0 填充 (只要长度对齐，FlashAttn/SDPA 会处理好)
+        dummy_ids = torch.zeros((1, total_len), dtype=torch.long, device=self.model.device)
+        att_mask = torch.ones((1, total_len), dtype=torch.long, device=self.model.device)
+        # === [关键修复 End] ===
+
+        # 4. 前向传播
+        outputs = self.model(inputs_embeds=combined_embeds, input_ids=dummy_ids, attention_mask=att_mask)
+        logits = outputs.logits
+        
+        # 5. 索引对齐 (Hard Alignment)
+        num_soft = self.neural_bridge.num_tokens
+        labels = full_ids[0, q_len:] 
+        
+        # Logits 开始位置计算：
+        # 我们要预测 labels[0] (即 Answer 的第一个词)
+        # 它的输入是 Question 的最后一个词。
+        # Question 的最后一个词在 combined_embeds 中的位置是: num_soft + q_len - 1
+        start_idx = num_soft + q_len - 1
+        
+        target_logits = logits[0, start_idx : start_idx + labels.shape[0], :]
+        
+        loss_fct = torch.nn.CrossEntropyLoss(reduction='none')
+        return -loss_fct(target_logits, labels).sum()
+
+    def train_grpo_step(self, question):
+        """
+        [进化算法] GRPO V2.0 (显存安全版)
+        专为单卡训练设计，集成 aggressive memory cleanup。
+        """
+        print(f"⚔️ [GRPO] 启动身心协同进化 (Question: {question[:10]}...)...")
+
+        # --- Phase 1: Rollout (采样) ---
+        responses = []
+        self.model.eval()
+        self.model.set_adapter("fast") 
+        
+        try:
+            with torch.no_grad():
+                # Group Size = 2
+                for i in range(2): 
+                    msgs = [{"role": "user", "content": question}]
+                    ids = self.tokenizer.apply_chat_template(msgs, return_tensors="pt", add_generation_prompt=True).to(self.model.device)
+                    out = self.model.generate(
+                        ids, max_new_tokens=128, temperature=0.8 + (i * 0.3), 
+                        do_sample=True, pad_token_id=self.tokenizer.eos_token_id
+                    )
+                    responses.append(self.tokenizer.decode(out[0][ids.shape[1]:], skip_special_tokens=True))
+        except Exception as e:
+            print(f"      ⚠️ 采样失败: {e}")
+            return
+
+        # --- Phase 2: Reward (打分) ---
+        rewards = []
+        for r in responses:
+            score = 0.0
+            if len(r) > 10: score += 0.1 # 基础分
+            if "1." in r and "2." in r: score += 0.5 # 逻辑分
+            # 工具调用奖励
+            if "save_file" in r:
+                if "```python" in r and "def " in r: score += 1.5
+                else: score -= 0.5 
+            rewards.append(score)
+            
+        # 优势函数归一化
+        r_tensor = torch.tensor(rewards, device=self.model.device)
+        if r_tensor.std() == 0: adv = r_tensor - r_tensor.mean()
+        else: adv = (r_tensor - r_tensor.mean()) / (r_tensor.std() + 1e-8)
+
+        # --- Phase 3: Train (反向传播) ---
+        self.model.train()
+        self.model.gradient_checkpointing_enable()
+        
+        # 准备 Embedding (保持 SNN 输入一致)
+        with torch.no_grad():
+            if self.embedder:
+                vector_input = self.embedder.encode(question, convert_to_tensor=True).to(self.model.device)
+            else:
+                vector_input = torch.zeros(1, 1024).to(self.model.device)
+
+        # 定义全参数优化器 (LLM部分参数 + Bridge + SNN)
+        params = [p for n, p in self.model.named_parameters() if p.requires_grad] + \
+                 list(self.neural_bridge.parameters()) + \
+                 list(self.cortex.parameters())
+        
+        optimizer = bitsandbytes.optim.PagedAdamW32bit(params, lr=1e-6)
+        total_loss = 0
+        valid_samples = 0
+        
+        for i, resp in enumerate(responses):
+            try:
+                # A. 计算概率
+                log_prob = self._get_log_probs_with_body(question, resp, vector_input)
+                ref_lp = self._get_log_probs_basic_ref(question, resp)
+                
+                # B. 计算 Loss (PPO-like w/ MSE KL)
+                kl = 0.5 * (log_prob - ref_lp)**2 
+                loss = -(adv[i] * log_prob) + (0.05 * kl)
+                
+                # C. 梯度累积
+                (loss / len(responses)).backward()
+                total_loss += loss.item()
+                valid_samples += 1
+                
+                # [必须添加] 立即切断引用，防止显存累积
+                del log_prob, ref_lp, loss, kl
+                
+            except RuntimeError as oom:
+                if "out of memory" in str(oom):
+                    print("      ⚠️ OOM 跳过样本")
+                    torch.cuda.empty_cache()
+                else: raise oom
+
+        # Phase 4: Update
+        if valid_samples > 0:
+            torch.nn.utils.clip_grad_norm_(params, 0.5)
+            optimizer.step()
+            optimizer.zero_grad(set_to_none=True)
+            print(f"      ✅ [GRPO] 进化步完成 (Loss: {total_loss/valid_samples:.4f})")
+        
+        # 强制大清洗
+        del optimizer
+        torch.cuda.empty_cache()
+
+
     def night_phase(self):
         """
         [V10.0 Singularity] 夜间循环：递归自我改进 (RSI) 与 深度进化
@@ -7439,99 +7996,38 @@ class NezhaLifeform:
         print(f"   -> 🛣️ [路径] 判定: {strategy} | 原因: {reason}")
 
 
-        # --- 分支 A: DPO 对抗训练 ---
+        # --- 分支 A: GRPO 端到端进化 (New S-Tier) ---
         if strategy == "DPO":
-            print(f"   -> ⚔️ [DPO] 启动对抗训练 (Samples: {dpo_cnt})...")
-            try:
-
-                # 1. 准备数据
-                # 将 SQL Tuple (prompt, chosen, rejected) 转换为 Dict List
-                dpo_list_for_training = []
-                trained_prompts = []
+            # 每晚精修 2 个核心问题，避免过热
+            raw_data = self.memory_db.get_untrained_dpo(limit=2) 
+            
+            if raw_data:
+                print(f"   -> ⚔️ [GRPO] 启动端到端 RSI 进化协议 (Samples: {len(raw_data)})...")
                 
-                for row in raw_dpo_data:
-                    dpo_list_for_training.append({
-                        "prompt": row[0], "chosen": row[1], "rejected": row[2]
-                    })
-                    trained_prompts.append(row[0])
-
-                dpo_dataset = Dataset.from_list(dpo_list_for_training)
-
-                # 2. 切换到直觉系统 (Fast Adapter) 并开启梯度
-                # DPO 主要用于调整直觉反应和价值观
-                self.model.set_adapter("fast")
+                # 1. 准备环境：强化直觉系统 (Fast Adapter)
+                try: self.model.set_adapter("fast")
+                except: pass
+                
+                # 确保 Fast Adapter 可训练
                 for n, p in self.model.named_parameters():
                     if "fast" in n: p.requires_grad = True
                 
-                # 2. 显存大清洗 (防止 OOM)
-                torch.cuda.empty_cache(); gc.collect()
-                                
-                # 3. 初始化 Trainer
-                # 动态计算梯度累积步数
-                # 确保 accumulate_steps 不会超过数据集的总大小，否则一步都练不了
-                dataset_len = len(dpo_dataset)
+                # 2. 逐个样本进化
+                trained_prompts = []
+                for row in raw_data:
+                    prompt_text = row[0] # 获取问题
+                    self.train_grpo_step(prompt_text)
+                    trained_prompts.append(prompt_text)
                 
-                # 目标是凑够 32 的大 Batch，但如果数据不够，就凑整个数据集的大小
-                # 例如：有 16 条数据 -> accum=16 (Full Batch)
-                #       有 100 条数据 -> accum=32 (Mini Batch)
-                target_accum = 32
-                accum_steps = min(target_accum, dataset_len) 
-                accum_steps = max(1, accum_steps) # 兜底至少为 1
-                
-                # 自动计算 Epoch 数
-                # 如果数据很少，多练几轮以确保收敛
-                num_epochs = 5 if dataset_len < 50 else 3
-
-                print(f"      ⚙️ [DPO参数] Data:{dataset_len} | Batch:1 | Accum:{accum_steps} | Epochs:{num_epochs}")
-
-                dpo_trainer = NezhaDPOTrainer(
-                    model=self.model,
-                    ref_model=None, # Implicit DPO
-                    args=DPOConfig(
-                        output_dir="tmp_dpo",
-                        
-                        # --- 核心稳定性参数 ---
-                        learning_rate=1e-6,           # 保守学习率
-                        per_device_train_batch_size=1,
-                        gradient_accumulation_steps=accum_steps, 
-                        max_grad_norm=1.0,            # 梯度裁剪
-                        num_train_epochs=num_epochs,  # 动态 Epoch
-                        
-                        # --- 其他优化 ---
-                        max_length=512, 
-                        max_prompt_length=256,
-                        beta=0.1,                       # DPO 温度系数
-                        logging_steps=1,                # 每一行都打印日志以便观察           
-                        remove_unused_columns=False,    # 防止误删数据列
-                        report_to="none",               # 关闭 wandb 等外部上报
-                        
-                        # [新增] 节省显存的各种开关
-                        gradient_checkpointing=True, # 牺牲速度换显存 (可选，如果显存够大可关)
-                        optim="paged_adamw_32bit"    # 使用分页优化器防止 OOM
-                    ),
-                    train_dataset=dpo_dataset,
-                    processing_class=self.tokenizer,
-                    ewc_handler=self.ewc_handler
-                )
-                
-                # 开始训练
-                dpo_trainer.train()
-                
-                # 5. 保存并清理
-                # 标记 SQL 中的数据为已训练
+                # 3. 持久化与清理
                 if hasattr(self, 'memory_db'):
                     self.memory_db.mark_dpo_trained(trained_prompts)
-
-                self.model.save_pretrained(Config.EVOLUTION_DIR)
-                print("      ✅ [DPO] 价值观对齐训练完成，数据已标记。")
                 
-            except Exception as e:
-                print(f"      ❌ DPO 启动失败 (自动回退到 SFT): {e}")
-                strategy = "SFT" # 失败则降级
-            finally:
-                #  销毁 Trainer 释放显存
-                if 'dpo_trainer' in locals(): del dpo_trainer
-                torch.cuda.empty_cache(); gc.collect()
+                # [关键] 保存 SNN 和 Bridge 权重 (因为它们也在 GRPO 中被更新了)
+                self.cortex.save()
+                torch.save(self.neural_bridge.state_dict(), os.path.join(Config.EVOLUTION_DIR, "neural_bridge.pt"))
+                
+                print("      ✅ [进化] 潜意识(SNN)与显意识(LLM)已完成深度对齐。")
 
 
         # --- 分支 B: SFT 知识注入 ---

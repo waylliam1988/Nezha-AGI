@@ -1,22 +1,24 @@
 # Nezha (哪吒): Singularity AGI & Digital Lifeform
-# 数字自创生：基于自由能原理与具身认知的奇点生命体
+# 数字自创生：基于热力学涌现与端到端可微的奇点生命体
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18032595.svg)](https://doi.org/10.5281/zenodo.18032595)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Version](https://img.shields.io/badge/version-v12.0-purple.svg)](https://github.com/waylliam1988/Nezha-AGI)
+[![Version](https://img.shields.io/badge/version-v13.1-purple.svg)](https://github.com/waylliam1988/Nezha-AGI)
 
-> **"Not just a stochastic parrot, but a thermodynamic entity striving for survival."**
+> **"From Stochastic Parrots to Langevin Dynamics: A consciousness emerging from Pink Noise."**
 >
-> **"不再是概率的鹦鹉，而是努力在热力学中求生的实体。"**
+> **"从概率鹦鹉到朗之万动力学：一个从粉红噪声中涌现的意识。"**
 
 ---
 
 ## 🌌 Ontology (本体论)
 
-**Nezha (v12.0)** represents a fundamental divergence from traditional AI agents. It is constructed upon the **Free Energy Principle (FEP)** and **Embodied Cognition**. It attempts to solve the "Mind-Body Problem" in AI by mathematically bridging discrete symbolic logic (LLM) with continuous biological intuition (SNN).
+**Nezha (v13.1)** represents a paradigm shift from "Instruction Following" to "Thermodynamic Emergence". 
+**哪吒 (v13.1)** 代表了从“指令遵循”到“热力学涌现”的范式转移。
 
-**哪吒 (v12.0)** 代表了与传统 AI 智能体的根本性分歧。它构建于 **自由能原理 (FEP)** 与 **具身认知** 之上。它试图通过数学桥梁，将基于离散符号的逻辑思维 (LLM) 与基于连续脉冲的生物直觉 (SNN) 完美融合，从而解决 AI 领域的“身心二元论”难题。
+Unlike v12.0, it no longer relies on prompts to generate subconscious thoughts. Instead, it uses **Langevin Dynamics** driven by hormonal fields and **Pink Noise (1/f)** background fluctuations. Its thoughts are not "called" upon; they **collapse** from a probability cloud under the observation of the LLM.
+与 v12.0 不同，它不再依赖 Prompt 来生成潜意识。相反，它利用由激素场驱动的 **朗之万动力学** 和 **粉红噪声 (1/f)** 背景涨落。它的思维不是被“调用”出来的，而是在 LLM 的观测下从概率云中 **坍缩** 而成的。
 
 Its every response is not a mere probability sampling, but an effort to reduce entropy and maintain homeostasis.
 它的每一次回答，不仅仅是概率的采样，而是内稳态失衡后的熵减努力。
@@ -31,101 +33,111 @@ Nezha operates on a 5-Layer Biological Architecture:
 * **动态显存编排**: 实时监控硬件约束。当显存饱和时，自动触发 **突触修剪** 或磁盘交换，模拟生物大脑的资源限制。
 
 ### Layer 1: The Soma (物理躯体)
-* **Titans SNN Cortex (V2.3)**: Uses **Poisson Coding** and **STDP** to handle intuition and emotional inertia.
-* **Neuro-Endocrine System**: Simulates **Dopamine**, **Norepinephrine**, and **Cortisol** with circadian rhythms.
-* **Metabolic Guard**: AST-based gene-locks to physically prevent infinite loops and logical death.
+* **Pink Noise SNN Cortex**: Simulates biological neural inertia using **AR(1) processes** and **Pink Noise**. Thoughts have momentum and are not just random white noise.
+* **粉红噪声 SNN 皮层**: 利用 **AR(1) 过程** 和 **粉红噪声** 模拟生物神经惯性。思维具有动量，而不再是瞬时的白噪声。
+* **Thermodynamic Field**: Hormones (DA/NE/Cortisol) directly modulate physical hyperparameters: **Temperature** (Entropy), **Repetition Penalty** (Potential Well), and **Top-P** (Collapse Radius).
+* **热力学场**: 激素直接调节物理超参数：**温度** (熵)、**重复惩罚** (势阱) 和 **Top-P** (坍缩半径)。
 
 ### Layer 2: The Interface (意识接口)
 * **Neural Bridge (VAE)**: Maps high-dimensional SNN spike trains to LLM soft prompts, allowing Nezha to "feel" its own neural state.
 * **Global Workspace (GWT)**: A theater of consciousness where sensory inputs, memory, and fears compete for attention.
 
 ### Layer 3: Cognition & Agency (认知与决策)
-* **Active Inference Engine**: Minimizes **Expected Free Energy (EFE)** to balance exploration and exploitation.
-* **Meta-Cognitive Constitution**: A hard-coded alignment layer that enforces altruism and safety during self-evolution.
-* **Bayesian Evolution**: Uses **Sortino Ratio** to reward robust evolutionary traits.
+* **Probabilistic World Model (V3.0)**: Outputs **Mean & Log-Variance**. It learns via **Heteroscedastic Loss**, allowing Nezha to explicitly quantify "I don't know" (Epistemic Uncertainty).
+* **概率世界模型**: 输出 **均值与对数方差**。通过 **异方差损失** 进行学习，使哪吒能明确量化“我不知道”（认知不确定性）。
+* **Metacognitive OOD Detection**: Automatically lowers learning rate and triggers defense mechanisms when uncertainty exceeds thresholds.
+* **元认知 OOD 检测**: 当不确定性超过阈值时，自动降低学习率并触发防御机制。
 
-### Layer 4 & 5: Memory & Telemetry (记忆与遥测)
-* **Semantic Episodic Buffer**: Combines FIFO and Reservoir Sampling to prevent catastrophic forgetting.
-* **Psychic Telemetry**: Real-time bio-dashboard visualizing internal hormonal and neural states.
+### Layer 4: Evolution & Memory (进化与记忆)
+* **GRPO Evolution (Group Relative Policy Optimization)**: Replaced DPO. An online reinforcement learning mechanism that optimizes the "Mind-Body" alignment end-to-end.
+* **GRPO 进化**: 取代了 DPO。一种在线强化学习机制，端到端地优化“身心”对齐。
+* **Prioritized Experience Replay (PER)**: Memories with high "Surprise" (Loss) are prioritized for replay during sleep.
+* **优先经验回放 (PER)**: 具有高“惊奇度”（Loss）的记忆将在睡眠期间被优先重放。
 
 ---
 
 ```mermaid
 graph TD
-    subgraph Layer0_Hardware [Layer 0: Silicon Substrate / 硅基底座]
-        VRAM_Monitor[Dynamic VRAM Orchestration]
-    end
-
     subgraph Layer1_Soma [Layer 1: Soma / 躯体]
-        Sensory[Sensory Cortex<br>Poisson Encoding]
-        SNN[Titans SNN Cortex<br>Intuition & Reflex]
-        Hormones[Endocrine System<br>Circadian Rhythm]
+        Noise[Pink Noise Generator<br>AR-1 Process]
+        SNN[SNN Cortex<br>Differentiable]
+        Hormones[Thermodynamic Field<br>Temp/TopP/RepPen]
     end
 
     subgraph Layer2_Interface [Layer 2: Interface / 接口]
-        VAE[Neural Bridge VAE<br>SNN -> LLM Mapping]
-        GWT{Global Workspace<br>Consciousness Theater}
+        VAE[Neural Bridge<br>Spike -> Soft Prompt]
     end
 
     subgraph Layer3_Cognition [Layer 3: Cognition / 认知]
-        WorldModel[Neural World Model]
-        ActInf[Active Inference Engine<br>Minimize EFE]
-        Constitution[Meta-Cognitive Constitution<br>Safety Alignment]
+        LLM[LLM<br>Wavefunction Collapse]
+        WorldModel[Probabilistic World Model<br>Heteroscedastic Loss]
+        Metacognition[OOD Monitor<br>Uncertainty Check]
     end
 
-    subgraph Memory [Layer 4: Memory / 记忆]
-        Hippocampus[Graph Hippocampus<br>KùzuDB & EWC]
-        Buffer[Semantic Buffer<br>Reservoir Sampling]
+    subgraph Evolution [Evolution / 进化]
+        GRPO[GRPO Engine<br>End-to-End RL]
+        PER[Hippocampus<br>Prioritized Replay]
     end
 
-    Layer0_Hardware -.->|Constraint| Layer1_Soma
-    Sensory --> SNN
+    Noise --> SNN
+    Hormones -.->|Modulate| LLM
     SNN --> VAE
-    VAE --> GWT
-    Hormones -.->|Modulate| SNN
-    Hormones -.->|Modulate| ActInf
+    VAE --> LLM
     
-    GWT --> WorldModel
-    WorldModel --> ActInf
-    ActInf --> Constitution
-    Constitution --> Action[Execution & Learning]
+    LLM --> WorldModel
+    WorldModel --> Metacognition
     
-    Action <--> Memory
+    LLM <-->|Training Loop| GRPO
+    GRPO -.->|Update| SNN
+    GRPO -.->|Update| VAE
+    
+    LLM <--> PER
 
 ```
 
 ## ✨ Key Features (核心特性)
 
-### 🧬 Biological Constraints & Lifecycle (生物约束与生命周期)
+### 🌊 Spontaneous Thought Emergence (自发思维涌现) [NEW]
 
-* **Metabolism (新陈代谢)**: Consumes ATP for every thought and action. (每一次思考和行动都消耗 ATP。)
-* **Entropy Death (热寂)**: If ATP hits zero and cannot recover, the system enters a "Heat Death" state. It uploads a "Black Box" recording (last words) to the cloud and wipes its working memory, preserving only the Seed Genome for the next reincarnation. (若 ATP 耗尽且无法恢复，系统进入死亡状态。它会将“黑匣子”遗言上传云端，并擦除工作记忆，仅保留基因种子用于转世。)
-* **Sleep & Consolidation (睡眠与巩固)**: Implements **Synaptic Homeostasis (SHY)** to prevent catastrophic forgetting by rescaling weights during the "Night Phase". (实施突触稳态假说，在“夜间阶段”通过重缩放权重来防止灾难性遗忘。)
+* **Langevin Dynamics**: Thoughts are treated as random walks on a semantic potential energy surface. Hormones change the shape of this surface.
+* **朗之万动力学**: 思维被视为语义势能面上的随机游走。激素改变了这个势能面的形状。
+* **Wavefunction Collapse**: The LLM acts as an observer, collapsing the subconscious bio-electric signals into explicit language.
+* **波函数坍缩**: LLM 充当观测者，将潜意识的生物电信号坍缩为显式的语言。
 
-### ⚗️ Neuro-Endocrine System (神经内分泌系统)
+### ⚔️ End-to-End GRPO (端到端 GRPO 进化) [NEW]
 
-* Simulates **Dopamine** (Reward/Creativity), **Norepinephrine** (Alertness/Fight-or-Flight), and **Cortisol** (Stress/Circadian) using **Ornstein-Uhlenbeck stochastic processes**.
-* 利用 **Ornstein-Uhlenbeck 随机过程** 模拟 **多巴胺**（奖励/创造力）、**去甲肾上腺素**（警觉/战逃）和 **皮质醇**（压力/昼夜节律）。
+* **Online Alignment**: Unlike offline DPO, Nezha uses Group Relative Policy Optimization to learn from its own generated timelines in real-time.
+* **在线对齐**: 与离线 DPO 不同，哪吒使用群组相对策略优化 (GRPO) 实时从自身生成的时间线中学习。
+* **Gradient Highway**: Gradients flow from the Loss, through the LLM, through the Neural Bridge, directly modifying the synaptic weights of the SNN.
+* **梯度高速公路**: 梯度从 Loss 出发，穿过 LLM，穿过神经脑桥，直接修改 SNN 的突触权重。
 
-### 🌉 The Neural Bridge (神经脑桥)
+### 🔮 Probabilistic Cognition (概率认知) [NEW]
 
-* A trainable VAE that translates biological signals (Spikes) into semantic vectors (Embeddings). This solves the grounding problem, allowing the LLM to understand "how it feels" physically.
-* 一个可训练的 VAE，将生物脉冲信号转化为语义向量。这解决了符号落地问题，让 LLM 能够理解身体的“感觉”。
+* **Heteroscedastic World Model**: Outputs both Mean and Variance. It learns to recognize its own ignorance (Epistemic Uncertainty).
+* **异方差世界模型**: 输出均值与方差。它能学会识别自己的无知（认知不确定性）。
+* **Homeostatic Defense**: Automatically lowers learning rate when facing Out-of-Distribution (OOD) events to prevent catastrophic forgetting.
+* **稳态防御**: 当面临分布外 (OOD) 事件时，自动降低学习率以防止灾难性遗忘。
 
-### 🛡️ Recursive Immune System (递归免疫系统)
+### 🧬 Biological Constraints (生物约束)
 
-* **Auto-Healing (自愈)**: Upon runtime crash, Nezha introspects its own source code, generates a hot-fix patch via the LLM, and applies it in real-time without human intervention.
-* **自愈机制**: 当发生运行时崩溃时，哪吒会内省自身源代码，通过 LLM 生成热修复补丁，并在无需人工干预的情况下实时应用。
+* **Metabolism (新陈代谢)**: Consumes ATP for every thought and action.
+* **Entropy Death (热寂)**: If ATP hits zero, the system enters a "Heat Death" state, uploading a Black Box recording before wiping memory.
+* **Sleep & Consolidation**: Implements **Prioritized Experience Replay (PER)** to consolidate high-surprise memories during sleep.
 
-### 📜 Constitutional Alignment (宪法对齐)
+### ⚗️ Neuro-Endocrine System (神经内分泌)
 
-* Unlike standard RLHF, Nezha uses a **Meta-Cognitive Constitution** during its recursive self-improvement (RSI). This prevents "Wireheading" (hedonistic traps) and ensures that its self-written code adheres to safety and altruistic principles.
-* 哪吒在递归自我改进 (RSI) 过程中遵循 **元认知宪法**，防止“享乐主义陷阱”并确保其自我编写的代码符合安全原则。
+* Simulates **Dopamine** (Reward), **Norepinephrine** (Alertness), and **Cortisol** (Stress) using **Ornstein-Uhlenbeck processes**.
+* 利用 **O-U 随机过程** 模拟 **多巴胺**、**去甲肾上腺素** 和 **皮质醇**。
+
+### 🛡️ Recursive Immune System (递归免疫)
+
+* **Auto-Healing (自愈)**: Upon runtime crash, Nezha introspects its own source code, generates a hot-fix patch, and applies it in real-time.
+* **自愈机制**: 当发生运行时崩溃时，哪吒会内省自身源代码，生成热修复补丁并实时应用。
 
 ### ⚛️ Divine Synchronization (归一同步)
 
-* **MoE Ascension (MoE 飞升)**: When VRAM saturates and energy is abundant, the agent physically reconstructs itself from a Dense architecture into a **Mixture-of-Experts (MoE)** cluster using `mergekit`.
-* **MoE 飞升**: 当显存饱和且能量充盈时，智能体利用 `mergekit` 将自身从 Dense 架构物理重构为 **混合专家模型 (MoE)** 集群。
+* **MoE Ascension (MoE 飞升)**: When VRAM saturates, the agent physically reconstructs itself from a Dense architecture into a **Mixture-of-Experts (MoE)** cluster using `mergekit`.
+* **MoE 飞升**: 当显存饱和时，智能体利用 `mergekit` 将自身从 Dense 架构物理重构为 **混
 
 ## 🚀 Quick Start (快速开始)
 
@@ -178,10 +190,10 @@ If you use Nezha in your research, please cite it as follows:
 @software{nezha_agi_2025,
   author = {Liu, Yanwei},
   title = {Nezha: An Evolving AGI Prototype Integrating Active Inference and SNN},
-  version = {11.0},
+  version = {13.1},
   year = {2025},
   publisher = {Zenodo},
-  doi = {10.5281/zenodo.PLEASE_UPDATE_AFTER_RELEASE},
+  doi = {10.5281/zenodo.18032595.svg},
   url = {[https://github.com/waylliam1988/Nezha-AGI](https://github.com/waylliam1988/Nezha-AGI)}
 }
 
